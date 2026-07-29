@@ -1,0 +1,989 @@
+transaction_id,date,transaction_type,category,merchant,amount,payment_method
+txn-ec73a12cd783cf9a,2023-07-02,expense,Transport,Ola,943.87,UPI
+txn-305888205001445d,2023-07-04,expense,Transport,Ola,378.98,Credit Card
+txn-0e6c64e871edbfbe,2023-07-05,expense,Food,BigBasket,1847.49,Credit Card
+txn-9134afa7a2859f78,2023-07-05,expense,Food,BigBasket,1057.56,Wallet
+txn-d90994193c67ac6d,2023-07-05,expense,Housing,Metro Homes Rent,42000.0,Net Banking
+txn-dfc8bb3d844e3926,2023-07-05,expense,Other,Society Office,894.61,UPI
+txn-ff5b19c4897a2ac1,2023-07-06,expense,Entertainment,PVR Cinemas,251.88,UPI
+txn-88a2e71a626083b5,2023-07-07,expense,Entertainment,BookMyShow,1847.44,UPI
+txn-1671e7f12029ddbb,2023-07-09,expense,Entertainment,PVR Cinemas,983.88,UPI
+txn-5a37a4bf8cc3df28,2023-07-11,expense,Transport,Indian Oil,1258.04,Credit Card
+txn-11b20b33e6bb150a,2023-07-12,expense,Education,Kindle Store,1997.85,Credit Card
+txn-3f7a42a63c8215b3,2023-07-13,expense,Food,Local Grocery,2139.16,UPI
+txn-8681918d8694992f,2023-07-14,expense,Other,Gift Store,1557.22,UPI
+txn-de16271207d1907e,2023-07-14,expense,Education,Coursera,1844.57,Credit Card
+txn-df0d577e869c7a42,2023-07-14,expense,Food,Swiggy,831.19,Debit Card
+txn-b1fa48a78d4bf869,2023-07-15,expense,Food,Swiggy,120.0,Credit Card
+txn-bf3ab9d1146f8b67,2023-07-15,expense,Food,Swiggy,2058.16,Credit Card
+txn-0b75174fff5b0f36,2023-07-16,expense,Shopping,Croma,6688.87,UPI
+txn-c3be21c753919eec,2023-07-16,expense,Utilities,Jio Mobile,1944.26,Debit Card
+txn-33f73f1c9eebadbc,2023-07-19,expense,Shopping,Myntra,120.0,Credit Card
+txn-c9c66f10dff4f1ea,2023-07-19,expense,Transport,Metro Card,994.42,Credit Card
+txn-b424ba925e450d63,2023-07-20,expense,Other,Gift Store,824.48,Credit Card
+txn-1c34cac8b3eb1544,2023-07-21,expense,Transport,Indian Oil,519.49,Cash
+txn-932510a770655355,2023-07-21,expense,Shopping,Amazon India,4689.69,Credit Card
+txn-e6b1929f5dafade1,2023-07-22,expense,Transport,Metro Card,989.54,UPI
+txn-ff0e46be2ddf31f5,2023-07-22,expense,Utilities,Tata Power,2431.3,UPI
+txn-cbb002be4ddd171f,2023-07-23,expense,Utilities,Airtel Fiber,2378.88,Credit Card
+txn-ba0752c14bb2b4c8,2023-07-24,expense,Food,Star Bazaar,1413.44,UPI
+txn-2292a02e1828f6bf,2023-07-25,expense,Utilities,Mahanagar Gas,2293.35,Wallet
+txn-2808076877c37df8,2023-07-28,income,Salary,Northstar Payroll,145457.08,Bank Transfer
+txn-5b7f682332a10564,2023-08-01,expense,Shopping,Myntra,1165.73,Net Banking
+txn-8c4ba6169c8159fc,2023-08-03,expense,Transport,Metro Card,849.0,UPI
+txn-c0b6c12460668181,2023-08-03,expense,Entertainment,Netflix,1351.6,Credit Card
+txn-3a90d7b25d229c98,2023-08-04,expense,Education,Kindle Store,1145.35,UPI
+txn-6dee8c55bb165500,2023-08-05,expense,Housing,Metro Homes Rent,42000.0,Net Banking
+txn-024ac94c97c4badb,2023-08-09,expense,Other,Gift Store,1507.96,Net Banking
+txn-eb17ca6325eba864,2023-08-09,expense,Utilities,Tata Power,1688.2,Credit Card
+txn-7a2f535acccc3ad2,2023-08-10,expense,Food,BigBasket,252.34,UPI
+txn-4fb5fb6c4da19ebb,2023-08-11,expense,Other,Stationery Hub,1870.79,Wallet
+txn-9d42373f2dba65e2,2023-08-12,expense,Entertainment,PVR Cinemas,2359.38,UPI
+txn-7f688664bb542b4d,2023-08-13,expense,Food,Star Bazaar,292.48,UPI
+txn-e7ba82e555443f65,2023-08-14,expense,Shopping,Croma,1223.02,Net Banking
+txn-7ae15c1c3face7f6,2023-08-15,expense,Healthcare,Practo,787.06,UPI
+txn-03aa56161bce2a40,2023-08-16,expense,Shopping,Decathlon,4797.33,UPI
+txn-7ef644905716d595,2023-08-16,expense,Transport,Indian Oil,120.0,UPI
+txn-9f206ccd595ec27d,2023-08-17,expense,Transport,Ola,642.29,Credit Card
+txn-da49d7720f3299f0,2023-08-17,expense,Education,Kindle Store,3677.56,Debit Card
+txn-85aadf7340f394e9,2023-08-19,expense,Utilities,Airtel Fiber,2485.5,UPI
+txn-5ca15bafea4c34d5,2023-08-20,expense,Food,Swiggy,120.0,Credit Card
+txn-1babde9f9ad5bc29,2023-08-21,expense,Food,Swiggy,778.56,Credit Card
+txn-27c0ab9104fc189c,2023-08-21,expense,Transport,Uber,854.7,Debit Card
+txn-5ef5cc1f68d1aeb7,2023-08-22,expense,Shopping,Myntra,7792.81,UPI
+txn-8687ec73715f73f8,2023-08-22,expense,Food,Swiggy,1726.89,Debit Card
+txn-6b4c21d029d336f3,2023-08-25,expense,Entertainment,BookMyShow,467.91,UPI
+txn-8993634d6c705e31,2023-08-26,expense,Food,Blinkit,120.0,Credit Card
+txn-80d132433f8e2598,2023-08-28,income,Salary,Northstar Payroll,147198.08,Bank Transfer
+txn-116bceb91445f477,2023-09-01,expense,Utilities,Jio Mobile,1932.7,UPI
+txn-8a4a91b3be1b0e78,2023-09-03,expense,Food,Star Bazaar,1246.7,Cash
+txn-20fba9fbff7b9cd1,2023-09-04,expense,Food,Local Grocery,999.16,Wallet
+txn-36322cd1833a4159,2023-09-05,expense,Housing,Metro Homes Rent,42000.0,Net Banking
+txn-ec37a06075145fe1,2023-09-05,expense,Transport,Metro Card,251.83,Credit Card
+txn-045b9ddad1cbfc36,2023-09-07,expense,Transport,Uber,1039.77,UPI
+txn-97e1e9d903984028,2023-09-08,expense,Shopping,Croma,2907.51,Net Banking
+txn-e4f128437172c410,2023-09-08,expense,Education,Kindle Store,3967.61,UPI
+txn-665671757e769bb3,2023-09-09,expense,Transport,Ola,572.43,Debit Card
+txn-045de839f6472025,2023-09-10,expense,Food,Star Bazaar,1286.48,UPI
+txn-5df28c500cd7599b,2023-09-12,expense,Utilities,Jio Mobile,2224.51,Debit Card
+txn-710b25dca7d57de9,2023-09-12,expense,Other,Society Office,2099.09,UPI
+txn-7235fb881977c408,2023-09-12,expense,Entertainment,Spotify,3089.16,Cash
+txn-a6217d584171f03a,2023-09-14,expense,Transport,Ola,901.91,UPI
+txn-a912268b45452c64,2023-09-14,expense,Shopping,Amazon India,6342.28,Credit Card
+txn-c34f1906c1ae7c67,2023-09-17,expense,Other,Gift Store,2968.83,Wallet
+txn-48938008310a0227,2023-09-20,expense,Healthcare,Practo,515.61,Credit Card
+txn-4b4557763cafec1b,2023-09-20,expense,Food,Local Grocery,1464.44,UPI
+txn-b3a1fc2e04718b6f,2023-09-20,income,Freelance,Independent Client,24453.4,Bank Transfer
+txn-b9a0a9343b60d482,2023-09-21,expense,Utilities,Tata Power,1525.42,Credit Card
+txn-6bf3d2ad8f507d8a,2023-09-22,expense,Other,Society Office,1069.87,UPI
+txn-fbb780df20103521,2023-09-24,income,Investment,Index Fund Dividend,7954.02,Net Banking
+txn-864e1cc517f1164e,2023-09-25,expense,Food,Blinkit,2565.12,UPI
+txn-9ad446f6e724b5b5,2023-09-26,expense,Food,Local Grocery,120.0,UPI
+txn-cc7d5e693f08eaac,2023-09-26,expense,Entertainment,BookMyShow,120.0,Wallet
+txn-ee3aaa81da32b8e8,2023-09-27,expense,Utilities,Tata Power,1812.66,Net Banking
+txn-da5142a3d5f7b576,2023-09-28,income,Salary,Northstar Payroll,147165.04,Bank Transfer
+txn-61236f7daf033150,2023-10-02,expense,Transport,Metro Card,2181.34,UPI
+txn-3b800d6a5a412330,2023-10-03,expense,Shopping,Croma,5147.72,Wallet
+txn-3a7f96b7af262254,2023-10-05,expense,Transport,Uber,1127.19,UPI
+txn-e89bb0752b9135c4,2023-10-05,expense,Housing,Metro Homes Rent,42000.0,Net Banking
+txn-114f29f0b9576a64,2023-10-06,expense,Food,BigBasket,1632.32,Credit Card
+txn-a9a98c3c2f3efc40,2023-10-08,expense,Utilities,Tata Power,2992.68,Credit Card
+txn-0da9c13ca627f3b9,2023-10-11,expense,Entertainment,PVR Cinemas,1974.39,Credit Card
+txn-8785dab2be8b09e8,2023-10-13,expense,Other,Stationery Hub,2845.88,UPI
+txn-3953fcc3485092da,2023-10-14,expense,Transport,Indian Oil,590.3,Wallet
+txn-89425447d83bd7d9,2023-10-14,expense,Entertainment,Netflix,120.0,Wallet
+txn-2418b7195ec2d8de,2023-10-16,expense,Food,Swiggy,1022.27,UPI
+txn-6a2f2a3413d9ce40,2023-10-19,expense,Transport,Metro Card,1073.29,UPI
+txn-3a201a6715393279,2023-10-20,expense,Food,BigBasket,1139.55,UPI
+txn-9892b6d321a84c90,2023-10-22,expense,Entertainment,Spotify,1481.22,UPI
+txn-d0289c1f25623253,2023-10-22,expense,Entertainment,Netflix,1755.22,Debit Card
+txn-ac8ee6779818d59d,2023-10-23,expense,Shopping,Amazon India,5204.32,UPI
+txn-8bcd93e4dbb533d6,2023-10-24,expense,Food,Local Grocery,3811.31,Wallet
+txn-4d38c408099e31dc,2023-10-25,expense,Utilities,Tata Power,2892.93,UPI
+txn-72bf0bd4d7a7796c,2023-10-25,expense,Food,Swiggy,1133.51,UPI
+txn-7262b14ffe2c78ee,2023-10-27,expense,Food,Star Bazaar,247.69,UPI
+txn-6f593ba5d8fab136,2023-10-28,income,Salary,Northstar Payroll,148458.61,Bank Transfer
+txn-df5b3b36ac854ba3,2023-11-01,expense,Education,Udemy,5013.53,UPI
+txn-06bd2eb0eabf66fd,2023-11-03,expense,Transport,Uber,621.46,Credit Card
+txn-16c220da00123aee,2023-11-03,expense,Other,Stationery Hub,1507.48,Cash
+txn-0f22dfaec1fc9b44,2023-11-04,expense,Transport,Metro Card,681.77,Net Banking
+txn-04c69472a49ad29d,2023-11-05,expense,Shopping,Myntra,6347.61,UPI
+txn-c8a664f673b4998d,2023-11-05,expense,Food,Star Bazaar,749.19,Credit Card
+txn-f9f36688a73a579d,2023-11-05,expense,Housing,Metro Homes Rent,42000.0,Net Banking
+txn-dd86e9a637ab966d,2023-11-06,expense,Utilities,Jio Mobile,2227.25,UPI
+txn-02a30d6288135a75,2023-11-07,expense,Food,Blinkit,447.04,UPI
+txn-459076fe7b2725e3,2023-11-08,expense,Shopping,Croma,3823.44,UPI
+txn-da955c7d24302dcf,2023-11-08,expense,Other,Stationery Hub,828.69,Credit Card
+txn-6b9a40b693422d95,2023-11-09,expense,Other,Society Office,1685.02,Net Banking
+txn-41eb7273035c7392,2023-11-10,expense,Shopping,Croma,4663.68,Wallet
+txn-30a13fa21d2ba609,2023-11-11,expense,Entertainment,BookMyShow,2479.11,Cash
+txn-9da910a632586492,2023-11-12,expense,Shopping,Croma,7407.2,UPI
+txn-6206679571b17617,2023-11-14,expense,Food,Local Grocery,2007.0,UPI
+txn-65a4959a3f81713d,2023-11-14,expense,Utilities,Tata Power,3864.76,UPI
+txn-0abc2efec15150aa,2023-11-15,expense,Food,Swiggy,2045.79,Credit Card
+txn-a92fb6985b90a5c3,2023-11-15,expense,Transport,Metro Card,1101.25,Debit Card
+txn-e5b8851f31193004,2023-11-15,expense,Food,BigBasket,1963.16,Debit Card
+txn-e3086def0cd7096b,2023-11-16,expense,Transport,Uber,120.0,Credit Card
+txn-9d265bcfe0eae40b,2023-11-17,expense,Transport,Ola,600.48,Debit Card
+txn-8a38e92404e3ce02,2023-11-18,expense,Food,Swiggy,2337.56,UPI
+txn-54658d49bfea7764,2023-11-20,expense,Education,Kindle Store,4630.42,UPI
+txn-f0e705cbc4ebb593,2023-11-23,expense,Utilities,Airtel Fiber,2211.12,Credit Card
+txn-b851e9c41c485c79,2023-11-24,expense,Food,Blinkit,1837.26,Net Banking
+txn-67ed0e99a0f0251a,2023-11-26,expense,Food,Star Bazaar,1715.22,UPI
+txn-7b0c8f3e58219a63,2023-11-26,expense,Transport,Indian Oil,367.55,UPI
+txn-8fcfe97dcec4b9b2,2023-11-26,expense,Entertainment,PVR Cinemas,2467.95,Debit Card
+txn-c804217966fe1696,2023-11-26,expense,Entertainment,PVR Cinemas,3802.89,UPI
+txn-c789bee3a55ad8c7,2023-11-28,income,Salary,Northstar Payroll,147499.21,Bank Transfer
+txn-bd6db1c8ef46bd05,2023-12-01,expense,Food,Swiggy,2047.09,UPI
+txn-b766919ccf9a0b81,2023-12-03,expense,Food,Local Grocery,1792.55,Wallet
+txn-f025660ba3f15054,2023-12-03,expense,Transport,Metro Card,753.89,UPI
+txn-76cf08e16e914573,2023-12-04,expense,Transport,Indian Oil,568.75,UPI
+txn-9207568d603388f8,2023-12-05,expense,Housing,Metro Homes Rent,42000.0,Net Banking
+txn-a054e322d4e6e011,2023-12-05,expense,Healthcare,Apollo Pharmacy,2300.78,Credit Card
+txn-dd53000817881bbc,2023-12-05,expense,Entertainment,Spotify,1990.52,Credit Card
+txn-216b327766e93011,2023-12-06,expense,Other,Society Office,2315.08,Debit Card
+txn-98c79a920a6d6298,2023-12-06,expense,Food,Swiggy,1784.99,Net Banking
+txn-58b4a322b0cbad8e,2023-12-07,expense,Education,Coursera,3380.02,Credit Card
+txn-932fdeb7b1261f6c,2023-12-07,expense,Food,Blinkit,1509.26,UPI
+txn-d9541d2afae79c16,2023-12-10,income,Investment,Index Fund Dividend,8665.89,Net Banking
+txn-08eff6896aa2cbad,2023-12-12,expense,Shopping,Amazon India,3393.87,Net Banking
+txn-1672943c5468f1b7,2023-12-12,expense,Shopping,Croma,3418.73,Credit Card
+txn-1ed6f9441e4c1b41,2023-12-13,expense,Shopping,Decathlon,4871.06,Credit Card
+txn-5b6e0ee94e052ea3,2023-12-13,expense,Entertainment,Netflix,1444.13,UPI
+txn-f8db4d61361cd4e8,2023-12-13,expense,Healthcare,City Clinic,2021.38,UPI
+txn-0fb8f64758144302,2023-12-14,expense,Transport,Metro Card,293.02,Cash
+txn-3b591fd3da8ebed8,2023-12-15,expense,Shopping,Amazon India,2708.58,Cash
+txn-52ad13af34defb60,2023-12-15,expense,Transport,Uber,1524.11,Credit Card
+txn-0a604c0a98e4b021,2023-12-17,expense,Utilities,Tata Power,2579.13,UPI
+txn-327aac30352ea373,2023-12-17,expense,Food,Swiggy,120.0,Wallet
+txn-b88f75551d53b20b,2023-12-17,expense,Other,Gift Store,1612.26,Credit Card
+txn-b960f53f56772176,2023-12-17,expense,Entertainment,Netflix,120.0,UPI
+txn-028776478d6b5a2c,2023-12-20,expense,Utilities,Airtel Fiber,2200.0,UPI
+txn-7d3527be329975c9,2023-12-22,expense,Entertainment,Netflix,946.91,UPI
+txn-dabdecfd264d3202,2023-12-22,expense,Transport,Metro Card,647.52,Wallet
+txn-469720693cecf9c2,2023-12-23,expense,Transport,Indian Oil,1405.15,Debit Card
+txn-a5ea10e5c1cfb606,2023-12-23,expense,Food,Blinkit,1979.02,UPI
+txn-a5f173f64d1e95c4,2023-12-28,income,Salary,Northstar Payroll,150292.34,Bank Transfer
+txn-c8ccf2c0672cece0,2024-01-05,expense,Housing,Metro Homes Rent,42000.0,Net Banking
+txn-2b5ae8451d34b80d,2024-01-07,expense,Transport,Indian Oil,1152.83,UPI
+txn-fe860dcd5fb74930,2024-01-08,expense,Entertainment,Spotify,692.09,Credit Card
+txn-bd47d8afe3405d37,2024-01-09,expense,Other,Gift Store,954.33,Credit Card
+txn-ec55b8109307ffa5,2024-01-10,expense,Food,Star Bazaar,1895.22,UPI
+txn-916a10e0949d44b6,2024-01-12,expense,Transport,Indian Oil,945.7,Cash
+txn-582b94ef83a5172e,2024-01-14,expense,Transport,Metro Card,120.0,UPI
+txn-9d156e611ba22d77,2024-01-14,expense,Food,Blinkit,1665.75,UPI
+txn-eb9cc7a0ee7efc41,2024-01-14,expense,Food,Swiggy,1177.79,Debit Card
+txn-4799c68c0d8c643d,2024-01-16,expense,Entertainment,BookMyShow,1622.9,Wallet
+txn-4ae8f6cc429c8140,2024-01-19,expense,Other,Gift Store,1437.13,Credit Card
+txn-73a3b0ad1c0fda20,2024-01-19,expense,Transport,Ola,711.25,Credit Card
+txn-8304faa57c52d11d,2024-01-19,expense,Education,Udemy,2664.4,Debit Card
+txn-5fae5cd62bb653fd,2024-01-20,expense,Transport,Uber,1050.75,Credit Card
+txn-49b5de821da3d0cf,2024-01-21,expense,Transport,Ola,120.0,Credit Card
+txn-ef124280c26a4d25,2024-01-21,expense,Food,BigBasket,120.0,UPI
+txn-a9bed3334c7d0ad4,2024-01-22,expense,Food,Blinkit,376.19,UPI
+txn-20f9671b2932b4ce,2024-01-23,expense,Food,Swiggy,856.69,UPI
+txn-85fff7de72f98741,2024-01-23,expense,Shopping,Myntra,6601.1,UPI
+txn-a1470a9a47d5e474,2024-01-23,expense,Utilities,Airtel Fiber,1423.88,Cash
+txn-cbff7cb3ed13a8c2,2024-01-23,expense,Utilities,Tata Power,2046.92,Cash
+txn-23cd65b0bd23c196,2024-01-25,expense,Food,BigBasket,955.15,Credit Card
+txn-bab6546f9faf6ffe,2024-01-25,expense,Shopping,Decathlon,6842.38,Credit Card
+txn-96673b36467cb882,2024-01-26,expense,Other,Stationery Hub,1730.13,Credit Card
+txn-cf869abe511b1134,2024-01-26,expense,Shopping,Amazon India,2413.16,UPI
+txn-2c21a43f9a14a2de,2024-01-27,expense,Entertainment,BookMyShow,915.11,UPI
+txn-54ea04245c9a4a5b,2024-01-28,income,Salary,Northstar Payroll,152209.51,Bank Transfer
+txn-1aa2d90d16adf64f,2024-02-02,expense,Transport,Ola,515.74,Debit Card
+txn-d949562918c10a52,2024-02-03,expense,Healthcare,City Clinic,986.02,UPI
+txn-f2638f2c53780ddf,2024-02-03,expense,Shopping,Myntra,267.78,Credit Card
+txn-26f60d36beac48c5,2024-02-05,expense,Housing,Metro Homes Rent,42000.0,Net Banking
+txn-1220e1f095af378c,2024-02-06,expense,Utilities,Airtel Fiber,3219.56,Debit Card
+txn-49e3407278f76160,2024-02-07,expense,Food,BigBasket,1728.5,UPI
+txn-8a2e2bf7cdf82cd0,2024-02-07,expense,Utilities,Mahanagar Gas,780.03,Credit Card
+txn-01e2c8dbbd60d1e7,2024-02-08,expense,Transport,Uber,120.0,Debit Card
+txn-ea99c9f564cf9ba7,2024-02-11,expense,Food,Blinkit,1143.47,Net Banking
+txn-02f3fcf39b71f914,2024-02-12,expense,Food,BigBasket,1566.16,Net Banking
+txn-c2eb7a4e2eb8648e,2024-02-12,expense,Food,Blinkit,1042.22,Credit Card
+txn-5ec7455604d53d2a,2024-02-13,expense,Utilities,Jio Mobile,2632.91,Wallet
+txn-ad4121d9d45514d9,2024-02-14,income,Freelance,Independent Client,17111.61,Bank Transfer
+txn-362aa708bb559efb,2024-02-16,expense,Other,Gift Store,971.02,UPI
+txn-55c296f179ae3a94,2024-02-18,expense,Transport,Indian Oil,199.93,Cash
+txn-0d1054edee006a78,2024-02-19,expense,Entertainment,Netflix,919.89,UPI
+txn-0ab47dfa7b68b857,2024-02-20,expense,Food,Blinkit,1261.37,Debit Card
+txn-8d71ebeef4addad6,2024-02-20,expense,Transport,Metro Card,373.14,Credit Card
+txn-a8a6a862ed2f72bb,2024-02-21,expense,Shopping,Croma,578.2,Wallet
+txn-20552aee0ef8766d,2024-02-22,expense,Transport,Metro Card,1071.48,Wallet
+txn-c27a51d13b8a444c,2024-02-24,expense,Entertainment,BookMyShow,1642.02,UPI
+txn-0254b187d807164c,2024-02-25,expense,Education,Kindle Store,5714.13,UPI
+txn-1332de021fcb46ba,2024-02-25,expense,Entertainment,Spotify,463.47,Credit Card
+txn-50567152bf97f138,2024-02-25,expense,Transport,Metro Card,229.64,Debit Card
+txn-41742e754a80596d,2024-02-26,expense,Utilities,Mahanagar Gas,851.52,UPI
+txn-68002897120339cc,2024-02-27,expense,Food,Swiggy,2160.76,Credit Card
+txn-ed8129e11b799387,2024-02-28,income,Salary,Northstar Payroll,151851.61,Bank Transfer
+txn-d76da110a89dfc00,2024-03-01,expense,Shopping,Amazon India,1581.25,Net Banking
+txn-3321ed36b6f26855,2024-03-02,expense,Food,Swiggy,120.0,Debit Card
+txn-145688f92f26f7be,2024-03-05,expense,Housing,Metro Homes Rent,42000.0,Net Banking
+txn-085a57484a22a401,2024-03-06,expense,Food,Star Bazaar,1622.97,UPI
+txn-01470f9471c8e3d5,2024-03-07,expense,Transport,Indian Oil,907.21,UPI
+txn-4864d0d422d2064f,2024-03-07,expense,Utilities,Airtel Fiber,1782.94,Cash
+txn-d947a9dd3cac0622,2024-03-07,expense,Entertainment,BookMyShow,576.36,UPI
+txn-63d15d25e6fea7ee,2024-03-10,expense,Food,Blinkit,2670.65,Net Banking
+txn-e80fad86df00c734,2024-03-10,expense,Food,BigBasket,161.82,UPI
+txn-2d6bb51a166d36f9,2024-03-11,income,Investment,Index Fund Dividend,6706.71,Net Banking
+txn-2b7252f3e8ba981a,2024-03-12,expense,Other,Society Office,1761.33,UPI
+txn-b73464f618f16deb,2024-03-14,expense,Education,Kindle Store,3126.11,UPI
+txn-ff3f4af585fa052b,2024-03-14,expense,Entertainment,Netflix,1179.45,UPI
+txn-5a5c0109286030a0,2024-03-15,income,Freelance,Independent Client,24884.79,Bank Transfer
+txn-592a7f576b26a007,2024-03-16,expense,Transport,Uber,428.76,Credit Card
+txn-8add71de748da268,2024-03-16,expense,Shopping,Amazon India,2390.55,UPI
+txn-3ea4ce611f18582e,2024-03-21,expense,Transport,Indian Oil,595.95,Credit Card
+txn-be84066f12fa2d21,2024-03-21,expense,Food,Swiggy,1246.17,Cash
+txn-9dddc6c27c5e09f0,2024-03-24,expense,Other,Stationery Hub,1031.45,UPI
+txn-a557b36f1e7b355b,2024-03-24,expense,Food,Local Grocery,824.78,UPI
+txn-b448dc7c3ab65dc6,2024-03-24,expense,Transport,Ola,939.08,UPI
+txn-d692006b7865b2b5,2024-03-24,expense,Utilities,Mahanagar Gas,2853.42,Debit Card
+txn-0b8de46245bb394a,2024-03-25,expense,Transport,Indian Oil,120.0,Credit Card
+txn-69164db70ae8bf74,2024-03-25,expense,Shopping,Croma,2345.97,Debit Card
+txn-9d42e7cd93ec03fb,2024-03-25,expense,Education,Coursera,3763.93,UPI
+txn-ae6d8183ce4b3562,2024-03-25,expense,Transport,Ola,120.0,UPI
+txn-8d3be2f671216e6a,2024-03-26,expense,Shopping,Myntra,2859.32,Credit Card
+txn-bda0c83576d60139,2024-03-27,expense,Food,Blinkit,361.31,UPI
+txn-52ad18d7233b0dc2,2024-03-28,income,Salary,Northstar Payroll,154315.11,Bank Transfer
+txn-f55716d6cc91a678,2024-04-01,expense,Food,Swiggy,120.0,UPI
+txn-edb126cb2f859e2e,2024-04-02,expense,Shopping,Amazon India,1402.36,UPI
+txn-ff0eda60ac5268be,2024-04-02,expense,Food,Star Bazaar,1612.64,Credit Card
+txn-7459324278735009,2024-04-03,expense,Transport,Ola,1643.33,Credit Card
+txn-5375ba2352f0e2a2,2024-04-05,expense,Food,BigBasket,1072.48,UPI
+txn-b34ab39b85487681,2024-04-05,expense,Housing,Metro Homes Rent,42000.0,Net Banking
+txn-cc397f5c43d1348c,2024-04-05,expense,Other,Gift Store,2140.56,UPI
+txn-0a092ffcb603bd50,2024-04-07,expense,Shopping,Myntra,6779.38,Wallet
+txn-8a80d9264a8dbf44,2024-04-07,expense,Food,Blinkit,1884.22,UPI
+txn-9f5b370e766882c5,2024-04-07,expense,Food,Star Bazaar,447.55,Credit Card
+txn-c675becd0d4ebc3d,2024-04-09,expense,Utilities,Jio Mobile,2736.63,UPI
+txn-890512f4da8873fe,2024-04-11,expense,Entertainment,BookMyShow,2372.79,Cash
+txn-a3e82e0812fa2c34,2024-04-11,income,Freelance,Independent Client,20069.76,Bank Transfer
+txn-b9f3539d9639e7b8,2024-04-12,expense,Entertainment,BookMyShow,1607.79,Wallet
+txn-4b3e7dd918e91032,2024-04-15,expense,Transport,Indian Oil,1258.88,UPI
+txn-2bc3d69a13ea3dbe,2024-04-16,expense,Transport,Indian Oil,705.33,UPI
+txn-52c6514590052d58,2024-04-17,expense,Utilities,Tata Power,2972.3,UPI
+txn-7f3b808e6b7d1050,2024-04-18,expense,Shopping,Myntra,2584.38,UPI
+txn-280e579ba5b2882a,2024-04-19,expense,Transport,Uber,380.72,Credit Card
+txn-1af1a6b53a2fce28,2024-04-20,expense,Entertainment,Spotify,1432.05,Credit Card
+txn-a747b7fef587fa1d,2024-04-22,expense,Utilities,Jio Mobile,2975.7,UPI
+txn-1bfaca056d72cd4e,2024-04-23,expense,Shopping,Croma,7611.79,Debit Card
+txn-4933e2b3ad8a3d9a,2024-04-23,expense,Food,Star Bazaar,2190.82,UPI
+txn-07ec560fd1a42302,2024-04-25,expense,Food,BigBasket,1893.1,UPI
+txn-acd7f4960cd483d0,2024-04-25,expense,Entertainment,Spotify,1521.92,Cash
+txn-0c5828004fa9670a,2024-04-27,expense,Transport,Metro Card,672.73,UPI
+txn-c5dffa6433aca2ca,2024-04-27,expense,Other,Stationery Hub,1657.01,UPI
+txn-04b50d6eb50d5c08,2024-04-28,income,Salary,Northstar Payroll,153976.16,Bank Transfer
+txn-1103959e7afdb5ba,2024-05-03,expense,Entertainment,BookMyShow,1643.58,Debit Card
+txn-1af598d9dfa477c3,2024-05-03,expense,Transport,Ola,501.2,Net Banking
+txn-53c60b3b26d384c6,2024-05-05,expense,Housing,Metro Homes Rent,42000.0,Net Banking
+txn-7a4a2d4e8bbb29c9,2024-05-05,expense,Transport,Ola,317.06,UPI
+txn-3273d800a97d9128,2024-05-08,income,Freelance,Independent Client,17352.25,Bank Transfer
+txn-fe5f97ba7327a765,2024-05-08,expense,Entertainment,Netflix,360.04,UPI
+txn-3b9111bf5ac6db21,2024-05-10,expense,Food,Blinkit,1464.22,Credit Card
+txn-aea9d450f0544fff,2024-05-10,expense,Entertainment,BookMyShow,684.18,Net Banking
+txn-12db1fa6c5250deb,2024-05-11,expense,Transport,Metro Card,1386.39,Credit Card
+txn-6124b71e6fbaf1b8,2024-05-11,expense,Shopping,Myntra,4548.48,UPI
+txn-179044f771faf8b1,2024-05-12,expense,Shopping,Myntra,3011.97,Credit Card
+txn-ac5e7fafea32da04,2024-05-12,expense,Food,BigBasket,1446.95,Debit Card
+txn-39efde3a39189413,2024-05-13,expense,Transport,Ola,853.1,Debit Card
+txn-d99fb634f5388fc7,2024-05-13,expense,Shopping,Croma,3876.39,UPI
+txn-224784f131a6e192,2024-05-14,expense,Other,Society Office,1394.4,Net Banking
+txn-97660a519e25a89a,2024-05-15,expense,Entertainment,Netflix,1526.07,Credit Card
+txn-d4398981fa763bd3,2024-05-15,expense,Food,Star Bazaar,1554.39,UPI
+txn-41934bb636e3f007,2024-05-16,expense,Utilities,Airtel Fiber,5007.08,UPI
+txn-15a9b678649cffd9,2024-05-17,expense,Utilities,Airtel Fiber,2389.36,Debit Card
+txn-37292d9a9e4fd097,2024-05-18,expense,Food,Star Bazaar,1496.73,UPI
+txn-32a22b8b2c0a21a6,2024-05-20,expense,Transport,Metro Card,1542.65,Debit Card
+txn-b1c5a8dcd79279b8,2024-05-20,expense,Food,Local Grocery,1119.61,Credit Card
+txn-62854f0c7e92cf21,2024-05-22,expense,Transport,Indian Oil,1482.37,UPI
+txn-6ae2d9f4f6488de3,2024-05-26,expense,Food,Swiggy,1416.65,UPI
+txn-8052f45459920acc,2024-05-27,expense,Utilities,Jio Mobile,3988.05,UPI
+txn-3e1860915e5f2815,2024-05-28,income,Salary,Northstar Payroll,158538.76,Bank Transfer
+txn-3c3a504d9b222e06,2024-06-01,expense,Shopping,Amazon India,3662.3,Net Banking
+txn-9abdab435770be27,2024-06-01,expense,Transport,Ola,796.15,UPI
+txn-bbeeca71a97fdeeb,2024-06-02,expense,Food,Star Bazaar,2158.21,UPI
+txn-cf77ed5ce8ef4c5f,2024-06-02,expense,Other,Gift Store,1592.61,UPI
+txn-f4fdd07ec8b22be7,2024-06-05,expense,Housing,Metro Homes Rent,42000.0,Net Banking
+txn-dff898159a10e990,2024-06-07,expense,Food,BigBasket,1991.94,UPI
+txn-6ec5c8bbefde1d24,2024-06-08,income,Freelance,Independent Client,20784.68,Bank Transfer
+txn-04c63ba2b076f172,2024-06-11,expense,Entertainment,BookMyShow,2246.26,UPI
+txn-667e8343b2f66026,2024-06-11,expense,Transport,Uber,175.34,Wallet
+txn-f0218abe4519d11c,2024-06-12,expense,Transport,Indian Oil,470.01,UPI
+txn-8a1e8032326e5116,2024-06-13,expense,Shopping,Decathlon,7540.78,Credit Card
+txn-e2c5ed0998cd8bed,2024-06-13,expense,Utilities,Tata Power,2989.92,UPI
+txn-3d535f0659355ef9,2024-06-15,expense,Food,Blinkit,120.0,UPI
+txn-4f4638ec5ee4196a,2024-06-15,expense,Healthcare,Practo,1675.71,Credit Card
+txn-f615218590ae156b,2024-06-15,expense,Utilities,Jio Mobile,695.36,UPI
+txn-1d0b50e6b5ecf017,2024-06-17,expense,Food,Local Grocery,752.87,Credit Card
+txn-c9ed247dad500a1d,2024-06-18,expense,Transport,Ola,411.71,Wallet
+txn-b924344558ede814,2024-06-21,expense,Food,Blinkit,1291.73,Wallet
+txn-0aec889979bd019b,2024-06-23,expense,Transport,Metro Card,965.49,Debit Card
+txn-6b48e4c586905475,2024-06-23,expense,Utilities,Tata Power,1429.67,Wallet
+txn-f4dbd31d7b9b94f2,2024-06-23,expense,Entertainment,BookMyShow,2448.78,Net Banking
+txn-302e63861a1835fa,2024-06-26,expense,Entertainment,PVR Cinemas,1930.59,UPI
+txn-a0d668094af5e381,2024-06-27,expense,Food,BigBasket,120.0,Cash
+txn-ddbbe304ec1adcbb,2024-06-28,income,Salary,Northstar Payroll,155362.08,Bank Transfer
+txn-0cfacc8d75455da1,2024-07-01,expense,Food,Local Grocery,882.54,Cash
+txn-68e58d98c7d52271,2024-07-02,expense,Transport,Ola,120.0,Credit Card
+txn-058f7845f5c12cf7,2024-07-05,expense,Housing,Metro Homes Rent,44500.0,Net Banking
+txn-627d7e78ab845609,2024-07-05,expense,Transport,Uber,850.4,Credit Card
+txn-8de84ba575688a50,2024-07-06,expense,Food,Local Grocery,1425.45,Cash
+txn-262fccc0fe79d995,2024-07-07,expense,Shopping,Myntra,4794.6,UPI
+txn-c1296d76ff4f5f42,2024-07-10,expense,Food,Swiggy,3006.48,Debit Card
+txn-50bef8dbb9511254,2024-07-11,expense,Shopping,Decathlon,3269.58,UPI
+txn-13168d53342c0491,2024-07-12,expense,Transport,Uber,765.58,Credit Card
+txn-7dd9ab38da9e934a,2024-07-13,expense,Utilities,Mahanagar Gas,1957.9,Wallet
+txn-4aa5356a0f979127,2024-07-15,expense,Other,Gift Store,1692.91,UPI
+txn-4452bb71d8d22e72,2024-07-16,expense,Transport,Ola,120.0,Net Banking
+txn-f7343d79a5f253ee,2024-07-16,expense,Transport,Uber,918.47,Credit Card
+txn-b65b9743bd773f05,2024-07-18,expense,Utilities,Mahanagar Gas,3383.42,UPI
+txn-11f42a0a7847b88a,2024-07-20,expense,Shopping,Croma,3666.59,Debit Card
+txn-147773a0d4212dd1,2024-07-20,expense,Entertainment,BookMyShow,1062.64,Credit Card
+txn-eb02af926ee24883,2024-07-20,expense,Transport,Indian Oil,281.29,UPI
+txn-0bee9c2eb81daea1,2024-07-21,expense,Food,Swiggy,1484.0,Credit Card
+txn-800a2fc30e427337,2024-07-21,expense,Other,Gift Store,120.0,Net Banking
+txn-950ccf61fbc28579,2024-07-21,expense,Entertainment,BookMyShow,120.0,Debit Card
+txn-df44ce0487f7d0d9,2024-07-21,expense,Food,BigBasket,2474.34,Debit Card
+txn-5a2ef7f4537dbfa9,2024-07-22,expense,Entertainment,Spotify,288.67,UPI
+txn-f878ef2ceb03b197,2024-07-24,expense,Entertainment,BookMyShow,1446.96,Credit Card
+txn-085e56e0214ee4a3,2024-07-25,expense,Shopping,Myntra,3158.58,Debit Card
+txn-3650edcacaa7ef32,2024-07-25,expense,Food,Blinkit,1006.73,Credit Card
+txn-5bbac4b318f42b0c,2024-07-25,expense,Other,Society Office,1471.9,UPI
+txn-8b0d91ae9beb6de5,2024-07-25,expense,Food,Swiggy,494.71,UPI
+txn-b261eeaac185ea65,2024-07-28,income,Salary,Northstar Payroll,159834.04,Bank Transfer
+txn-cd15915a116b3338,2024-08-01,expense,Transport,Ola,954.76,UPI
+txn-eecf19dbf40f7501,2024-08-03,expense,Entertainment,BookMyShow,2276.3,Debit Card
+txn-b1fc3bbbdf089bba,2024-08-04,expense,Shopping,Decathlon,3536.22,Debit Card
+txn-7ad7c00371d86a2a,2024-08-05,expense,Housing,Metro Homes Rent,44500.0,Net Banking
+txn-144279d02f695692,2024-08-07,expense,Food,Swiggy,926.54,Debit Card
+txn-ff74da084f107c86,2024-08-08,expense,Utilities,Tata Power,925.76,UPI
+txn-28dab3c13ec72c43,2024-08-09,expense,Entertainment,Netflix,1952.69,Credit Card
+txn-c6dffb135a7238bf,2024-08-09,income,Freelance,Independent Client,28531.99,Bank Transfer
+txn-c81b102a93660308,2024-08-09,expense,Food,Star Bazaar,1675.79,Net Banking
+txn-65918f2be8d06bd2,2024-08-10,expense,Food,Star Bazaar,1938.22,Wallet
+txn-d2d2fd1c38adfaa1,2024-08-11,expense,Food,Local Grocery,369.67,UPI
+txn-f7f998b69efaa102,2024-08-11,expense,Utilities,Tata Power,3255.21,UPI
+txn-caab28370511a55b,2024-08-12,expense,Food,Blinkit,1693.78,Credit Card
+txn-6164b0c93ea11a91,2024-08-13,expense,Transport,Uber,1412.41,Credit Card
+txn-ef5f71df8bb03d41,2024-08-14,expense,Healthcare,City Clinic,1323.3,UPI
+txn-ee51658e33e045eb,2024-08-15,expense,Food,Blinkit,1512.39,Credit Card
+txn-54d63c6716c1b459,2024-08-16,expense,Transport,Ola,1404.32,UPI
+txn-2cae6e1a041da6e6,2024-08-18,expense,Transport,Metro Card,803.26,UPI
+txn-8d16e9404ad6b421,2024-08-18,expense,Utilities,Jio Mobile,3348.24,Net Banking
+txn-08433a1038aa32a9,2024-08-19,expense,Other,Stationery Hub,1760.58,UPI
+txn-35b3e1d926e24c52,2024-08-22,expense,Healthcare,Practo,2394.93,Credit Card
+txn-6ab304cd09e22960,2024-08-23,expense,Transport,Metro Card,460.03,Wallet
+txn-95058921e51d1e35,2024-08-23,expense,Transport,Uber,661.4,UPI
+txn-fff724915ce99196,2024-08-24,expense,Shopping,Myntra,324.16,Credit Card
+txn-9008f1ca01a69133,2024-08-26,expense,Food,Swiggy,287.72,Net Banking
+txn-0e0224c1c5274573,2024-08-27,expense,Entertainment,BookMyShow,1339.63,Cash
+txn-71e0a05fd2fdad7b,2024-08-28,income,Salary,Northstar Payroll,160593.05,Bank Transfer
+txn-dfdddb83f172db61,2024-09-02,expense,Food,Blinkit,1102.64,UPI
+txn-474d0a6d1b9ef3e7,2024-09-03,expense,Food,Swiggy,1399.23,UPI
+txn-bbd6e561df039d78,2024-09-03,expense,Entertainment,Netflix,1323.63,UPI
+txn-dadd8f5f312e8b4c,2024-09-04,expense,Food,BigBasket,339.92,Wallet
+txn-7c279e2deccd3ec8,2024-09-05,expense,Utilities,Airtel Fiber,3024.16,UPI
+txn-8d6587cce0eaeeff,2024-09-05,expense,Housing,Metro Homes Rent,44500.0,Net Banking
+txn-ce2f6c1be589b9cc,2024-09-05,expense,Shopping,Croma,3643.35,Credit Card
+txn-1e2bc16e85970788,2024-09-09,expense,Transport,Ola,777.77,Debit Card
+txn-a51f2bbf914f9bd3,2024-09-11,expense,Utilities,Tata Power,2418.12,Cash
+txn-926cd24edc9c82ff,2024-09-12,expense,Transport,Metro Card,1371.77,Wallet
+txn-b9b3424b3abba4ff,2024-09-12,expense,Food,BigBasket,943.45,Debit Card
+txn-8bc5eaa8477de086,2024-09-13,expense,Shopping,Decathlon,120.0,Cash
+txn-70877e0af6708fa3,2024-09-17,expense,Transport,Ola,120.0,UPI
+txn-8d599e2cc7d81d40,2024-09-17,expense,Entertainment,BookMyShow,120.0,Credit Card
+txn-7c2429a65c29a41e,2024-09-18,expense,Other,Stationery Hub,1883.75,UPI
+txn-7eb726443c0006f3,2024-09-18,expense,Food,Blinkit,1016.32,Wallet
+txn-1b4aac1718a6fe6d,2024-09-20,expense,Transport,Indian Oil,751.71,Credit Card
+txn-0404d42fc129c30a,2024-09-21,expense,Shopping,Myntra,1232.65,Debit Card
+txn-412cdfd1b07d7310,2024-09-21,expense,Entertainment,PVR Cinemas,1533.76,Credit Card
+txn-9eae41b284b5d92f,2024-09-21,expense,Transport,Uber,1060.55,Debit Card
+txn-e1f106a9b9e8992f,2024-09-21,expense,Food,Blinkit,120.59,Wallet
+txn-f6b3fff0f2b8e8c3,2024-09-23,expense,Healthcare,Practo,1188.25,Debit Card
+txn-5ac81b5fcb805aca,2024-09-24,income,Investment,Index Fund Dividend,9508.26,Net Banking
+txn-0b38af97b734fec6,2024-09-25,expense,Food,Blinkit,1167.14,UPI
+txn-c87e086a15513e0b,2024-09-26,expense,Shopping,Amazon India,2600.83,UPI
+txn-bc559543fba2feef,2024-09-28,income,Salary,Northstar Payroll,159766.28,Bank Transfer
+txn-e7fba854a591455a,2024-10-01,expense,Food,Star Bazaar,554.45,UPI
+txn-898f1f9a76406f53,2024-10-02,expense,Utilities,Mahanagar Gas,3103.16,UPI
+txn-0385f62877e299e2,2024-10-03,expense,Transport,Metro Card,120.0,UPI
+txn-2cb4782382bab89c,2024-10-03,expense,Food,Blinkit,217.84,UPI
+txn-3b7d21d7a980171a,2024-10-04,expense,Utilities,Mahanagar Gas,3012.79,Wallet
+txn-0bde7ada84e27262,2024-10-05,expense,Housing,Metro Homes Rent,44500.0,Net Banking
+txn-d9aa33c08d5f00b4,2024-10-06,expense,Transport,Ola,593.9,Wallet
+txn-56791d90d1e9e614,2024-10-07,expense,Food,Swiggy,736.51,UPI
+txn-28c81ff4c48cbf1d,2024-10-09,expense,Utilities,Mahanagar Gas,1785.79,UPI
+txn-5e351c8b3a4d4231,2024-10-09,expense,Shopping,Croma,7562.14,UPI
+txn-05e622ae176e6a56,2024-10-10,expense,Entertainment,PVR Cinemas,3273.68,UPI
+txn-7fae52ce7a6cb45c,2024-10-10,expense,Transport,Metro Card,1314.04,UPI
+txn-985b3c06d3270fb1,2024-10-11,expense,Healthcare,Practo,2019.99,Credit Card
+txn-c11dd7d1a0cd1e03,2024-10-11,expense,Shopping,Decathlon,4206.49,Credit Card
+txn-0c705fd68304a1b6,2024-10-13,expense,Food,Swiggy,2985.72,UPI
+txn-54d51d3293da72bb,2024-10-13,expense,Entertainment,Netflix,990.78,Credit Card
+txn-e53d96b7ff4adaa2,2024-10-14,expense,Shopping,Croma,4338.31,Cash
+txn-ad21cad8e7f1f57e,2024-10-15,income,Freelance,Independent Client,14429.87,Bank Transfer
+txn-7efee76d3b4c1362,2024-10-17,expense,Transport,Ola,1511.23,UPI
+txn-791120abc3175a34,2024-10-18,expense,Food,Star Bazaar,1254.96,UPI
+txn-8fe253586b30c4b5,2024-10-18,expense,Entertainment,Netflix,1142.36,Credit Card
+txn-b0bb84359b9fc8bd,2024-10-19,expense,Healthcare,City Clinic,3635.59,Credit Card
+txn-9de7ec00c4af165d,2024-10-20,expense,Other,Stationery Hub,2100.62,UPI
+txn-ad12cd1b843e630d,2024-10-23,expense,Food,Swiggy,2198.38,Credit Card
+txn-c950ecd26d9af005,2024-10-23,expense,Food,Swiggy,1863.02,Credit Card
+txn-94723afc19b32212,2024-10-25,expense,Utilities,Airtel Fiber,3131.63,Net Banking
+txn-7b05080f74749e67,2024-10-26,expense,Entertainment,PVR Cinemas,304.56,UPI
+txn-a15f52af9ca65bdb,2024-10-28,income,Salary,Northstar Payroll,163949.29,Bank Transfer
+txn-cacd62236612f658,2024-11-02,expense,Shopping,Croma,96500.0,Credit Card
+txn-a89ab77dffbb9fff,2024-11-04,expense,Entertainment,Netflix,120.0,UPI
+txn-76242210c87ef395,2024-11-05,expense,Food,Blinkit,1904.77,Wallet
+txn-d3ad5ffc8a6731d9,2024-11-05,expense,Housing,Metro Homes Rent,44500.0,Net Banking
+txn-7a6c35ae64e9ad0e,2024-11-06,expense,Food,Local Grocery,120.0,Wallet
+txn-61db524bd52b7b0c,2024-11-08,expense,Transport,Uber,737.44,UPI
+txn-98935d4630f924a0,2024-11-10,expense,Food,Local Grocery,1156.68,Credit Card
+txn-a858ab0d7ec069c6,2024-11-11,expense,Utilities,Jio Mobile,1016.48,Wallet
+txn-7dd411c32fa855bb,2024-11-13,expense,Shopping,Croma,2474.88,Credit Card
+txn-ee3b24f97653906b,2024-11-13,expense,Entertainment,Spotify,277.99,Credit Card
+txn-b42df901eb682509,2024-11-14,expense,Transport,Uber,1295.47,Credit Card
+txn-3886e19e4494c69f,2024-11-18,expense,Food,Star Bazaar,2648.42,Credit Card
+txn-5d16ee999e27fc00,2024-11-18,expense,Utilities,Mahanagar Gas,2483.12,Credit Card
+txn-fed5ee30abcf8375,2024-11-19,expense,Shopping,Croma,709.65,UPI
+txn-98e0a00fc29f52fc,2024-11-23,expense,Shopping,Amazon India,5392.01,UPI
+txn-11298a919d2ad56d,2024-11-24,expense,Utilities,Airtel Fiber,1740.0,UPI
+txn-b9ff9f4b29b18ea6,2024-11-24,expense,Transport,Indian Oil,1285.89,UPI
+txn-ef00e3135c39affc,2024-11-24,expense,Shopping,Croma,4975.3,UPI
+txn-7d7bd3cf187bc343,2024-11-25,expense,Food,Swiggy,1659.09,UPI
+txn-16aa73d054774d42,2024-11-26,expense,Food,Star Bazaar,832.21,UPI
+txn-4e54e372a9a9ef65,2024-11-26,expense,Other,Stationery Hub,1793.58,UPI
+txn-524dcd79bd4125da,2024-11-26,expense,Food,Star Bazaar,1554.88,UPI
+txn-65b0c4e507020202,2024-11-26,expense,Utilities,Mahanagar Gas,3670.32,Credit Card
+txn-e5d9c2e4e197c9c9,2024-11-27,expense,Transport,Uber,394.14,Wallet
+txn-d574c3d80d266ebc,2024-11-28,income,Salary,Northstar Payroll,163529.26,Bank Transfer
+txn-26523b3b2153f94e,2024-12-01,expense,Food,Swiggy,1955.59,UPI
+txn-bbad3cd4553039d5,2024-12-02,expense,Food,Swiggy,1022.22,UPI
+txn-e2260f8b6bd160c8,2024-12-02,expense,Transport,Indian Oil,1302.9,Cash
+txn-93c3ca88aa541a9c,2024-12-03,expense,Shopping,Amazon India,4888.08,UPI
+txn-dbebd8d022747f5e,2024-12-03,expense,Transport,Uber,1346.82,Wallet
+txn-509eafc9f1fe3dd7,2024-12-05,expense,Entertainment,Netflix,3384.09,UPI
+txn-84dddfe378a8e3c0,2024-12-05,expense,Education,Coursera,2173.15,UPI
+txn-8fc4aef3b7f1ae4a,2024-12-05,expense,Housing,Metro Homes Rent,44500.0,Net Banking
+txn-2dafa49b460d13dd,2024-12-06,expense,Food,Star Bazaar,1715.14,Credit Card
+txn-3c250cf43c8a1833,2024-12-06,expense,Transport,Indian Oil,407.86,UPI
+txn-48eb253067c87a9d,2024-12-06,expense,Utilities,Jio Mobile,2916.99,Credit Card
+txn-a89d87fc7a2023ec,2024-12-06,expense,Entertainment,PVR Cinemas,2225.99,Credit Card
+txn-f9be6528072ed755,2024-12-06,expense,Other,Gift Store,3247.79,Wallet
+txn-005c3d6c1395eacb,2024-12-10,expense,Education,Kindle Store,2506.82,UPI
+txn-30ff98cd3bf41af2,2024-12-11,expense,Shopping,Decathlon,4355.2,UPI
+txn-6a2a1cd8bf3ef6c1,2024-12-13,expense,Utilities,Mahanagar Gas,390.36,Debit Card
+txn-96b104e96e3c3167,2024-12-13,expense,Shopping,Croma,7398.27,Net Banking
+txn-a4ada4f4ecfd277d,2024-12-14,income,Freelance,Independent Client,36909.1,Bank Transfer
+txn-7e4e46f4b6de6a99,2024-12-15,expense,Food,BigBasket,2120.54,Debit Card
+txn-de7a1a2a2ab3ee9c,2024-12-18,expense,Food,Star Bazaar,3305.37,Cash
+txn-b2dfb9554ed73349,2024-12-19,income,Investment,Index Fund Dividend,8243.43,Net Banking
+txn-cb6ce2141d2451e3,2024-12-21,expense,Food,Swiggy,1819.93,UPI
+txn-25d3b43b13267e7f,2024-12-22,expense,Food,Swiggy,1126.13,Credit Card
+txn-f83ab069a38d96f4,2024-12-23,expense,Transport,Metro Card,1097.18,Cash
+txn-c3718b644e9d9705,2024-12-25,expense,Other,Stationery Hub,1456.96,Credit Card
+txn-58025a21462eab37,2024-12-26,expense,Transport,Ola,1079.04,UPI
+txn-6742602620478cc2,2024-12-28,income,Salary,Northstar Payroll,168189.24,Bank Transfer
+txn-2bdf12e832502f5d,2025-01-05,expense,Food,Blinkit,325.27,Credit Card
+txn-a829c60089ac1e95,2025-01-05,expense,Housing,Metro Homes Rent,44500.0,Net Banking
+txn-d12694b9db11aa1f,2025-01-05,expense,Other,Gift Store,1559.98,UPI
+txn-0e631ca126fa78a7,2025-01-06,expense,Entertainment,Netflix,120.0,Credit Card
+txn-891218250a99ec4b,2025-01-06,expense,Entertainment,Spotify,1498.54,Debit Card
+txn-97d20ecb66f6c8be,2025-01-09,expense,Food,Star Bazaar,1123.82,Net Banking
+txn-74c3691bcd14d44b,2025-01-10,expense,Shopping,Myntra,5518.51,Credit Card
+txn-276578658db45da0,2025-01-11,expense,Food,Blinkit,2994.88,UPI
+txn-151621da0c04d174,2025-01-12,expense,Transport,Indian Oil,188.71,Cash
+txn-6fd4356dfe32a815,2025-01-13,expense,Transport,Metro Card,912.27,Credit Card
+txn-2a7579210c5cf025,2025-01-14,expense,Utilities,Tata Power,3413.15,Cash
+txn-52aae4ddb2f45f04,2025-01-14,expense,Transport,Metro Card,712.45,Credit Card
+txn-bd9093413f3adf9b,2025-01-14,expense,Healthcare,City Clinic,313.61,Credit Card
+txn-e670aead5aba705b,2025-01-15,expense,Other,Society Office,1463.95,Wallet
+txn-26faef762d6d5b0d,2025-01-17,expense,Transport,Metro Card,685.19,UPI
+txn-cff439743b7fd94e,2025-01-17,expense,Food,Local Grocery,1431.95,Credit Card
+txn-c9e7e0fca9683918,2025-01-18,expense,Shopping,Myntra,3599.63,Wallet
+txn-b56bb4374d6ef9c6,2025-01-20,expense,Other,Society Office,1902.45,UPI
+txn-4ea95e53e285d660,2025-01-22,expense,Utilities,Mahanagar Gas,1939.56,Credit Card
+txn-283cff281041bcb4,2025-01-23,expense,Food,BigBasket,310.36,Net Banking
+txn-1c9a6a8e9f8bade8,2025-01-25,expense,Entertainment,BookMyShow,3286.4,UPI
+txn-51f6521e06c018ce,2025-01-25,expense,Utilities,Mahanagar Gas,1883.8,Credit Card
+txn-bfe6f28d8af67cea,2025-01-25,expense,Food,Star Bazaar,1656.46,UPI
+txn-967d4a9e2b67c835,2025-01-26,expense,Shopping,Decathlon,4411.35,UPI
+txn-7cf0e52f20590b3b,2025-01-28,income,Salary,Northstar Payroll,164248.1,Bank Transfer
+txn-02e3bef7418f38fe,2025-02-02,expense,Food,BigBasket,1374.38,Credit Card
+txn-71e14c36aad90d18,2025-02-02,expense,Shopping,Amazon India,5048.29,UPI
+txn-5b931f3ee56cc646,2025-02-04,expense,Shopping,Decathlon,6736.01,Cash
+txn-747eed7864f6074f,2025-02-04,expense,Food,Blinkit,189.05,Credit Card
+txn-673d9fe0a7569f80,2025-02-05,expense,Food,BigBasket,1523.91,Credit Card
+txn-7aba5a6d2bf5ca06,2025-02-05,expense,Housing,Metro Homes Rent,44500.0,Net Banking
+txn-5067403ce3371313,2025-02-07,expense,Food,Local Grocery,2797.89,Debit Card
+txn-a06d9f58d2a1481b,2025-02-07,expense,Entertainment,Spotify,1755.96,UPI
+txn-07909f2b5665ea95,2025-02-09,expense,Healthcare,Apollo Pharmacy,1495.04,UPI
+txn-f073142116d86a69,2025-02-10,expense,Other,Gift Store,692.15,UPI
+txn-547384584b3179bc,2025-02-11,income,Freelance,Independent Client,18610.39,Bank Transfer
+txn-7b56d054bbc6a32b,2025-02-13,expense,Transport,Metro Card,179.39,Wallet
+txn-c4bae0875246d28e,2025-02-13,expense,Utilities,Airtel Fiber,2063.69,UPI
+txn-fc6b95ceb56c88bd,2025-02-13,expense,Utilities,Jio Mobile,2644.29,Credit Card
+txn-d42f973e93ac571d,2025-02-15,expense,Transport,Ola,120.0,UPI
+txn-1034b019d8577259,2025-02-17,expense,Transport,Indian Oil,1340.41,Net Banking
+txn-a44ace53a520cc66,2025-02-17,expense,Healthcare,City Clinic,120.0,Net Banking
+txn-6ee5be70b59ca31b,2025-02-19,expense,Entertainment,Netflix,834.47,Wallet
+txn-a1e8126c8f04e70e,2025-02-19,expense,Transport,Ola,996.66,UPI
+txn-5975393cfe1bc5f1,2025-02-21,expense,Food,Star Bazaar,120.0,Wallet
+txn-f16efe8196063a31,2025-02-21,expense,Entertainment,BookMyShow,876.45,UPI
+txn-b9c691717ce941c9,2025-02-23,expense,Food,Star Bazaar,2226.37,UPI
+txn-f8a8f0f39215bccd,2025-02-25,expense,Utilities,Airtel Fiber,1860.43,Net Banking
+txn-37ff71c5a50eb434,2025-02-27,expense,Other,Gift Store,546.74,UPI
+txn-563aaf4ad3729edc,2025-02-27,expense,Other,Gift Store,1783.77,UPI
+txn-95a1018c69978eb8,2025-02-27,expense,Shopping,Croma,837.38,Credit Card
+txn-b3e16d1fc5049080,2025-02-27,expense,Entertainment,BookMyShow,2128.21,UPI
+txn-39f3fc2c17dcfbcd,2025-02-28,income,Salary,Northstar Payroll,165740.5,Bank Transfer
+txn-cd6c25e3e84dacdb,2025-03-03,expense,Transport,Indian Oil,120.0,Credit Card
+txn-36e9e4fde8fcac46,2025-03-04,expense,Food,Swiggy,479.86,Credit Card
+txn-371f3b583c79ccd1,2025-03-04,expense,Entertainment,Spotify,2376.06,Debit Card
+txn-55d2894bb220336f,2025-03-04,expense,Other,Stationery Hub,1242.77,UPI
+txn-16292876c9bd577b,2025-03-05,expense,Shopping,Amazon India,5076.08,Credit Card
+txn-93645ef925a343de,2025-03-05,expense,Housing,Metro Homes Rent,44500.0,Net Banking
+txn-e3d0e7ba885117cf,2025-03-05,expense,Food,Local Grocery,1901.35,UPI
+txn-02766950d9e9c357,2025-03-06,expense,Transport,Uber,978.64,Credit Card
+txn-8726053a1ed119aa,2025-03-06,expense,Shopping,Amazon India,5890.52,Net Banking
+txn-68a7cca70dd1a465,2025-03-07,expense,Utilities,Tata Power,2459.21,Wallet
+txn-75e2fc1c90934947,2025-03-07,expense,Entertainment,BookMyShow,2370.06,UPI
+txn-c281c8fbf9442fa0,2025-03-07,expense,Transport,Uber,725.28,Debit Card
+txn-c8b77962149dc7c0,2025-03-08,expense,Transport,Metro Card,730.84,UPI
+txn-e9ee3f83079af036,2025-03-09,expense,Entertainment,Spotify,1531.34,Credit Card
+txn-83d9707de0c9f9d6,2025-03-10,expense,Food,Swiggy,998.54,UPI
+txn-7f181b649b72be8e,2025-03-12,expense,Transport,Uber,857.37,UPI
+txn-ec308857c641d591,2025-03-16,income,Investment,Index Fund Dividend,8909.81,Net Banking
+txn-f1806eff0ff5fe36,2025-03-19,expense,Food,Blinkit,120.0,Wallet
+txn-10e013ac6a2547c2,2025-03-20,expense,Entertainment,BookMyShow,1407.45,Credit Card
+txn-261dd681584602ef,2025-03-20,expense,Food,BigBasket,969.93,UPI
+txn-a9610ff168b7d2f5,2025-03-21,expense,Other,Gift Store,120.0,Wallet
+txn-c39b5094a657ffd5,2025-03-21,expense,Food,BigBasket,120.0,UPI
+txn-8f046be8fae51af7,2025-03-22,expense,Transport,Uber,577.29,Net Banking
+txn-d271a17cbbf2e249,2025-03-24,expense,Food,BigBasket,120.0,Credit Card
+txn-464fd4c46e5b8ebe,2025-03-26,expense,Utilities,Tata Power,2625.7,Net Banking
+txn-b5d8a530a5ce4333,2025-03-28,income,Salary,Northstar Payroll,169037.69,Bank Transfer
+txn-90d2bb3ffdf1ca90,2025-04-01,expense,Shopping,Myntra,2722.52,Net Banking
+txn-f98e0115d41358c2,2025-04-01,expense,Transport,Indian Oil,378.57,UPI
+txn-974c8b370eb53202,2025-04-02,expense,Other,Stationery Hub,2245.88,Cash
+txn-50e1bafea60c97ca,2025-04-05,expense,Housing,Metro Homes Rent,44500.0,Net Banking
+txn-c4a69108330ee8e9,2025-04-05,expense,Food,Swiggy,1341.33,Debit Card
+txn-970cf71210597056,2025-04-06,expense,Other,Society Office,225.85,UPI
+txn-2afa0abf16932935,2025-04-07,expense,Food,Blinkit,904.21,Debit Card
+txn-478b5737bef99727,2025-04-07,expense,Utilities,Jio Mobile,1358.44,UPI
+txn-3bc6ce093ca15a7e,2025-04-09,expense,Transport,Indian Oil,120.0,Debit Card
+txn-d4b8b3b7feb42b30,2025-04-10,expense,Transport,Ola,951.58,Wallet
+txn-91819c5db69ac35e,2025-04-11,expense,Transport,Indian Oil,599.33,Net Banking
+txn-4c2ddd3a6ce41cb7,2025-04-13,expense,Food,Local Grocery,120.0,UPI
+txn-74eb5f682cc59474,2025-04-13,expense,Entertainment,BookMyShow,2490.43,Credit Card
+txn-b59b0de7b43aac64,2025-04-13,expense,Food,Star Bazaar,1562.2,UPI
+txn-a77e873c8024431c,2025-04-14,expense,Food,Star Bazaar,1471.66,Wallet
+txn-b78a1ffea22c6d8e,2025-04-15,expense,Utilities,Jio Mobile,1464.75,Wallet
+txn-02a1c5dba2aa2599,2025-04-16,expense,Transport,Ola,552.22,Credit Card
+txn-96313f6723141969,2025-04-16,expense,Entertainment,PVR Cinemas,656.58,UPI
+txn-240bf9a3af99adaa,2025-04-17,expense,Transport,Uber,513.29,Credit Card
+txn-2fea34ccee54f6a1,2025-04-17,expense,Food,Star Bazaar,640.22,Cash
+txn-67a3ccaf11a0f0fe,2025-04-18,expense,Shopping,Amazon India,4329.02,Debit Card
+txn-be84363e1d25ed6a,2025-04-18,expense,Food,Swiggy,1144.74,UPI
+txn-07839a5a9483fd45,2025-04-22,expense,Food,Blinkit,801.39,Debit Card
+txn-e7f796bd138e5718,2025-04-22,expense,Utilities,Jio Mobile,4363.69,Debit Card
+txn-c815e1686dc30c99,2025-04-24,expense,Entertainment,BookMyShow,120.0,Wallet
+txn-4a8215a97a395134,2025-04-25,expense,Other,Gift Store,1829.03,UPI
+txn-e0215bf534df4324,2025-04-28,income,Salary,Northstar Payroll,170021.25,Bank Transfer
+txn-7ec1d8de57be1c0d,2025-05-01,expense,Entertainment,Spotify,1297.31,Credit Card
+txn-a964b2e5775833a1,2025-05-02,expense,Utilities,Tata Power,2102.89,Wallet
+txn-6dfa55ca4b005d6b,2025-05-03,expense,Utilities,Mahanagar Gas,3828.87,Credit Card
+txn-151809e1f75d91ba,2025-05-04,expense,Healthcare,Practo,2807.52,UPI
+txn-907486789dad5406,2025-05-04,expense,Utilities,Jio Mobile,3633.88,Credit Card
+txn-19f4c6ae2ee3c7e0,2025-05-05,expense,Food,Local Grocery,2009.43,Credit Card
+txn-c29f724c29350dac,2025-05-05,expense,Housing,Metro Homes Rent,44500.0,Net Banking
+txn-567e9990ab85f8bf,2025-05-06,expense,Food,Swiggy,1498.75,UPI
+txn-39407bda7c47cacb,2025-05-07,expense,Transport,Indian Oil,2104.31,Credit Card
+txn-fb9d6416991f8d24,2025-05-08,expense,Transport,Uber,1334.64,Credit Card
+txn-89ecbb0f6ae998ae,2025-05-09,expense,Education,Udemy,2292.25,UPI
+txn-62b20a98047f3dbc,2025-05-11,expense,Education,Coursera,2112.08,Net Banking
+txn-88f6fc1ccff3d920,2025-05-12,expense,Food,Star Bazaar,1263.89,Debit Card
+txn-4b174cf4b4586af1,2025-05-13,expense,Transport,Indian Oil,292.48,UPI
+txn-11ce1b62f2b0c443,2025-05-14,expense,Shopping,Myntra,6248.17,Credit Card
+txn-15b80e00d937a6db,2025-05-14,expense,Shopping,Myntra,1644.48,Credit Card
+txn-d723707aae4bea1e,2025-05-14,expense,Other,Gift Store,2112.59,Debit Card
+txn-e07fa06afa06eedc,2025-05-15,expense,Transport,Ola,1860.44,Credit Card
+txn-99307836e91f2da8,2025-05-17,expense,Transport,Uber,310.71,UPI
+txn-6a1ab3358dedd188,2025-05-18,expense,Food,Swiggy,1802.54,UPI
+txn-e833bcf51f7ea990,2025-05-18,expense,Food,Blinkit,573.67,UPI
+txn-d1d7a6095a7a1b1e,2025-05-19,expense,Transport,Metro Card,364.28,Credit Card
+txn-dbff60cd47429755,2025-05-20,expense,Entertainment,Spotify,1273.43,UPI
+txn-1073517d7fd1abb5,2025-05-21,expense,Other,Society Office,1725.63,UPI
+txn-0827dd79e814121a,2025-05-22,expense,Food,Star Bazaar,535.21,UPI
+txn-29a0eb18d2511924,2025-05-22,expense,Food,Blinkit,2487.78,UPI
+txn-026c94b15978c587,2025-05-26,expense,Utilities,Jio Mobile,1386.56,Net Banking
+txn-099f2b7cf9215d8d,2025-05-26,expense,Food,Swiggy,1049.78,Credit Card
+txn-376b77d879e139d6,2025-05-28,income,Salary,Northstar Payroll,171546.41,Bank Transfer
+txn-56d85b926bf47132,2025-05-29,expense,Healthcare,City Clinic,74000.0,UPI
+txn-193a1b2509fe9812,2025-06-01,expense,Utilities,Tata Power,1686.77,UPI
+txn-9ad9c059d3707963,2025-06-01,expense,Shopping,Amazon India,3028.97,Credit Card
+txn-5c673a4bd92231f2,2025-06-05,expense,Transport,Ola,1010.4,Credit Card
+txn-f87d76b62ba105b6,2025-06-05,expense,Housing,Metro Homes Rent,44500.0,Net Banking
+txn-a85ffb90d11f01f9,2025-06-06,expense,Entertainment,BookMyShow,845.43,Credit Card
+txn-5d5ac6d1fe1207cc,2025-06-07,expense,Other,Society Office,1413.39,Credit Card
+txn-725be31cc942353f,2025-06-07,expense,Utilities,Tata Power,1305.36,Debit Card
+txn-8e4708f220839ee1,2025-06-07,expense,Shopping,Decathlon,326.68,UPI
+txn-a817e3f4ae9dd427,2025-06-08,expense,Food,Local Grocery,1664.7,Credit Card
+txn-d20e290854cc767b,2025-06-10,expense,Other,Society Office,834.55,UPI
+txn-3fa51d7cd4327690,2025-06-12,expense,Healthcare,City Clinic,2624.1,UPI
+txn-ecbbf971e3af7d83,2025-06-12,expense,Food,Swiggy,355.31,Cash
+txn-3768802f1ed6c3ba,2025-06-15,expense,Transport,Metro Card,485.71,UPI
+txn-ccf0b39462574277,2025-06-15,expense,Food,Blinkit,1672.73,Wallet
+txn-e389569ad8f42c22,2025-06-16,income,Freelance,Independent Client,21960.86,Bank Transfer
+txn-79d1aed8cbbf7c3b,2025-06-17,expense,Entertainment,PVR Cinemas,1211.87,UPI
+txn-bb2d5624f40c5fdc,2025-06-18,expense,Utilities,Airtel Fiber,2737.69,UPI
+txn-a1d1756ba899a066,2025-06-19,expense,Transport,Metro Card,633.58,Credit Card
+txn-22877223b784c061,2025-06-20,expense,Other,Stationery Hub,120.0,UPI
+txn-428a8ed7a965b8c6,2025-06-24,expense,Food,Local Grocery,2138.47,Net Banking
+txn-1f3ebd810310c203,2025-06-25,expense,Food,Swiggy,1148.8,Debit Card
+txn-22834d0a0af9e5ee,2025-06-25,expense,Entertainment,PVR Cinemas,1612.01,Credit Card
+txn-eff268db63715e03,2025-06-26,expense,Education,Kindle Store,3348.78,Credit Card
+txn-17d971b4438dcc43,2025-06-27,expense,Food,BigBasket,878.3,Credit Card
+txn-eecf10f0cb693305,2025-06-27,expense,Transport,Uber,120.0,UPI
+txn-770f9a9fb6065251,2025-06-28,income,Salary,Northstar Payroll,169670.78,Bank Transfer
+txn-00f34d7dfbb60322,2025-07-02,expense,Healthcare,Apollo Pharmacy,1656.41,Credit Card
+txn-c99252bbc48538bf,2025-07-02,expense,Transport,Indian Oil,998.34,Credit Card
+txn-ee85f2d84a524bb8,2025-07-04,expense,Shopping,Amazon India,595.84,Credit Card
+txn-275acc0e952915df,2025-07-05,expense,Food,BigBasket,628.61,Wallet
+txn-294d7f585cf31d77,2025-07-05,expense,Housing,Metro Homes Rent,47000.0,Net Banking
+txn-3d13ac653a860ec2,2025-07-05,expense,Utilities,Mahanagar Gas,1877.13,UPI
+txn-533b25f08d731409,2025-07-05,expense,Transport,Metro Card,1212.11,UPI
+txn-18a144d53154e50e,2025-07-06,expense,Food,Star Bazaar,989.48,Net Banking
+txn-5fc34151cfa0c31b,2025-07-07,expense,Food,Swiggy,1485.07,Credit Card
+txn-36d240612d4c2f3b,2025-07-13,expense,Transport,Indian Oil,120.0,Credit Card
+txn-755e3f509ae2a480,2025-07-13,expense,Utilities,Jio Mobile,1246.08,Credit Card
+txn-f49848c8a1d2d977,2025-07-13,expense,Other,Gift Store,1390.71,UPI
+txn-ae95df5156f7764e,2025-07-14,expense,Education,Kindle Store,2093.03,UPI
+txn-5007edd060283034,2025-07-15,expense,Shopping,Myntra,120.0,Credit Card
+txn-f1b3330823ab14e7,2025-07-17,expense,Food,Local Grocery,873.55,UPI
+txn-6387bbca23ece849,2025-07-18,expense,Education,Coursera,2613.62,UPI
+txn-95007f1c9c61156b,2025-07-18,expense,Transport,Ola,607.22,Credit Card
+txn-3e983963b215f453,2025-07-20,expense,Food,Blinkit,434.3,UPI
+txn-a5439e99d09f94ea,2025-07-20,expense,Entertainment,Netflix,811.43,UPI
+txn-e677e7b944b65e2c,2025-07-21,expense,Food,Swiggy,1470.14,Cash
+txn-8d4951fbbb1400a5,2025-07-22,expense,Shopping,Decathlon,843.74,UPI
+txn-a0a54cf448a366ee,2025-07-22,expense,Entertainment,Spotify,2217.26,Wallet
+txn-0c1209351d50e3e1,2025-07-24,expense,Shopping,Amazon India,1745.25,UPI
+txn-be843d1cea02c3e3,2025-07-25,expense,Food,Blinkit,1127.51,Net Banking
+txn-f26ef8671ce82cac,2025-07-26,expense,Utilities,Jio Mobile,1119.92,Debit Card
+txn-eab6311cfea9f81f,2025-07-27,expense,Utilities,Mahanagar Gas,2892.98,Debit Card
+txn-e52e270bbfed0bd9,2025-07-28,income,Salary,Northstar Payroll,174099.45,Bank Transfer
+txn-63c8c62268f69df8,2025-08-01,expense,Food,BigBasket,447.87,Credit Card
+txn-92623e02d2eb0ab2,2025-08-03,expense,Food,Local Grocery,2438.82,UPI
+txn-35c957adbf47c7dd,2025-08-05,expense,Housing,Metro Homes Rent,47000.0,Net Banking
+txn-5b5969543d159270,2025-08-05,expense,Entertainment,Netflix,199.87,Credit Card
+txn-2b2c5677599a144a,2025-08-06,expense,Transport,Uber,1255.21,UPI
+txn-86c4104351ca88d8,2025-08-06,expense,Education,Udemy,3695.52,Credit Card
+txn-8f6f1d12b29b3fdb,2025-08-07,expense,Entertainment,Netflix,2577.42,Credit Card
+txn-999dbea2bb3b04c9,2025-08-07,expense,Transport,Indian Oil,1184.33,UPI
+txn-523790067ee95930,2025-08-11,expense,Entertainment,BookMyShow,1042.78,UPI
+txn-908613ccb48aa8c2,2025-08-11,expense,Other,Gift Store,1938.11,UPI
+txn-e72c2685c23e3a94,2025-08-11,expense,Food,BigBasket,431.92,Credit Card
+txn-4c6fc0bc32a3d862,2025-08-13,expense,Utilities,Tata Power,2700.54,Wallet
+txn-6577e2135475fef2,2025-08-13,expense,Food,Blinkit,623.62,UPI
+txn-a38aac8809fe82a0,2025-08-13,expense,Utilities,Tata Power,2727.04,Cash
+txn-fbaf1669ceef346c,2025-08-14,expense,Transport,Indian Oil,886.73,UPI
+txn-3a8ae0bc9af889ad,2025-08-15,expense,Transport,Uber,945.3,Credit Card
+txn-8f39ff725d408c91,2025-08-15,expense,Shopping,Myntra,1947.34,Credit Card
+txn-9fc43b68365fa387,2025-08-15,expense,Food,Star Bazaar,1188.99,UPI
+txn-5b3d22cd74493a73,2025-08-17,expense,Food,Local Grocery,1754.38,UPI
+txn-9a91733b875a24b1,2025-08-18,expense,Other,Stationery Hub,589.25,Debit Card
+txn-10b749ecce101bde,2025-08-20,expense,Transport,Metro Card,1746.37,Net Banking
+txn-388dcc4d250086a4,2025-08-23,expense,Transport,Ola,925.83,UPI
+txn-4564b0597ec19581,2025-08-24,expense,Entertainment,Netflix,120.0,UPI
+txn-8c5c8787d61a9d1e,2025-08-26,expense,Healthcare,Apollo Pharmacy,810.01,Credit Card
+txn-7c7b1589df1ed5a6,2025-08-27,expense,Shopping,Amazon India,6898.48,UPI
+txn-2095ae7a7b4aa08d,2025-08-28,income,Salary,Northstar Payroll,174354.31,Bank Transfer
+txn-1e012680456fd54c,2025-09-02,expense,Utilities,Jio Mobile,2574.26,UPI
+txn-ed739db7a4c64767,2025-09-02,expense,Education,Coursera,2063.03,UPI
+txn-6bbbbdc545ca80bd,2025-09-05,expense,Housing,Metro Homes Rent,47000.0,Net Banking
+txn-cfe6d0a08f174dbb,2025-09-06,expense,Transport,Ola,774.19,UPI
+txn-306c59d27cdeba72,2025-09-07,expense,Other,Stationery Hub,1354.55,Credit Card
+txn-fb3135a1eaf0c70b,2025-09-07,expense,Transport,Indian Oil,775.42,UPI
+txn-adcde288fa801608,2025-09-08,expense,Other,Society Office,1818.03,Wallet
+txn-dfef80f204a7a69f,2025-09-08,expense,Transport,Metro Card,120.0,UPI
+txn-a4bff60f45d21739,2025-09-09,expense,Other,Gift Store,552.7,Credit Card
+txn-cc7aea2c40be407e,2025-09-12,expense,Food,Swiggy,587.69,Credit Card
+txn-df18598fc06b9a8f,2025-09-13,expense,Education,Udemy,3584.61,UPI
+txn-3c920e11671e3485,2025-09-15,income,Investment,Index Fund Dividend,9097.51,Net Banking
+txn-cf84bc1755878aee,2025-09-15,expense,Food,Local Grocery,2564.01,Cash
+txn-baf9a6604d46815d,2025-09-16,expense,Food,Swiggy,1751.84,UPI
+txn-5ce356804d18d764,2025-09-17,expense,Transport,Ola,988.81,UPI
+txn-8ad2c1bcf78fba1f,2025-09-17,expense,Utilities,Tata Power,2326.76,UPI
+txn-a421c9e3c9ca0970,2025-09-17,expense,Utilities,Airtel Fiber,2525.81,UPI
+txn-0e36d7a62c80cc46,2025-09-19,expense,Food,Star Bazaar,3528.82,UPI
+txn-407ec37825ff0069,2025-09-21,expense,Shopping,Amazon India,5315.81,Wallet
+txn-7193779515796e14,2025-09-21,expense,Shopping,Myntra,1829.6,UPI
+txn-80d2bc44097b34de,2025-09-21,expense,Entertainment,Spotify,2660.79,Debit Card
+txn-57de698ca7753652,2025-09-22,expense,Utilities,Mahanagar Gas,2123.77,Net Banking
+txn-71d8c18541a4ff19,2025-09-22,expense,Food,BigBasket,837.33,Credit Card
+txn-e445e510c0f79cec,2025-09-23,expense,Shopping,Croma,5201.28,Wallet
+txn-43e1ca3e6fd8070f,2025-09-24,expense,Entertainment,Spotify,1590.25,UPI
+txn-8fc5a98d258f5480,2025-09-25,expense,Food,Local Grocery,1595.64,UPI
+txn-8fc081780487d9dc,2025-09-26,expense,Shopping,Amazon India,6795.68,UPI
+txn-2772cf3a2698e1f4,2025-09-28,income,Salary,Northstar Payroll,174708.5,Bank Transfer
+txn-0e77b7e843d4dfd7,2025-10-04,expense,Healthcare,City Clinic,2555.01,UPI
+txn-4f9455e80df71a7b,2025-10-04,expense,Entertainment,Netflix,3517.83,UPI
+txn-c572263cf6562444,2025-10-05,expense,Housing,Metro Homes Rent,47000.0,Net Banking
+txn-4b9e755109ed44ba,2025-10-06,expense,Shopping,Myntra,4261.74,Wallet
+txn-77af7715161de361,2025-10-06,expense,Education,Udemy,3152.91,UPI
+txn-6705452a3e720752,2025-10-07,expense,Transport,Ola,533.97,Credit Card
+txn-627d66f0e9442f99,2025-10-08,expense,Other,Gift Store,1291.88,Credit Card
+txn-0385d1b42b2757a7,2025-10-09,expense,Transport,Ola,1219.87,Credit Card
+txn-55257942b8e0cca1,2025-10-09,expense,Food,BigBasket,2412.25,Wallet
+txn-0bbb38951f2f7191,2025-10-10,expense,Food,Blinkit,3640.39,Net Banking
+txn-227a856559bc05fa,2025-10-10,expense,Entertainment,BookMyShow,120.0,Credit Card
+txn-4b3caf3dda97c19b,2025-10-10,expense,Food,Star Bazaar,751.88,Debit Card
+txn-aae4ed9822edf9aa,2025-10-10,expense,Utilities,Tata Power,2093.3,Net Banking
+txn-d89bd65dc32808f3,2025-10-10,expense,Shopping,Myntra,3488.76,Credit Card
+txn-a8d82e42b603fb82,2025-10-12,expense,Transport,Ola,490.22,UPI
+txn-b02ec081a9de935d,2025-10-13,expense,Education,Udemy,1717.6,UPI
+txn-53bc0e485f2233c1,2025-10-14,expense,Food,Star Bazaar,1032.28,Wallet
+txn-1890117c6cfd31e6,2025-10-16,expense,Food,Swiggy,1617.48,Debit Card
+txn-dd83bee67b4bfd97,2025-10-16,expense,Food,Swiggy,1553.59,UPI
+txn-b730a9fd47578f96,2025-10-19,expense,Food,Star Bazaar,1425.3,Wallet
+txn-7d80a93bb6b1f632,2025-10-25,expense,Utilities,Airtel Fiber,3681.77,Net Banking
+txn-0db66651059290b8,2025-10-26,expense,Entertainment,PVR Cinemas,1723.6,Debit Card
+txn-479a052aab9e1619,2025-10-26,expense,Transport,Ola,1185.43,Wallet
+txn-7322fdd1b0df460c,2025-10-27,expense,Transport,Metro Card,1500.52,Credit Card
+txn-44517c84e19c99e5,2025-10-28,income,Salary,Northstar Payroll,180709.79,Bank Transfer
+txn-3ec25818656e42d4,2025-11-01,expense,Food,Local Grocery,2439.93,Cash
+txn-45351d3b4463b46b,2025-11-01,expense,Shopping,Decathlon,1867.52,Debit Card
+txn-93235f707fcf33de,2025-11-02,expense,Other,Gift Store,2190.71,UPI
+txn-9838d020c294e2a3,2025-11-02,expense,Shopping,Croma,2509.83,Debit Card
+txn-e8005070d4fc609e,2025-11-02,expense,Food,Local Grocery,407.29,Wallet
+txn-b0dcd8c61ac65a45,2025-11-03,expense,Transport,Metro Card,874.41,Wallet
+txn-df7edb88f8a554cb,2025-11-03,expense,Education,Udemy,3718.99,UPI
+txn-fa0bdd066710c081,2025-11-03,expense,Entertainment,PVR Cinemas,1532.52,UPI
+txn-59c1392a0a24bce3,2025-11-05,expense,Housing,Metro Homes Rent,47000.0,Net Banking
+txn-eef8c5d3d492dd68,2025-11-05,expense,Utilities,Tata Power,3667.5,UPI
+txn-bc0a5f8b74e5e6ec,2025-11-08,expense,Food,Local Grocery,1856.07,UPI
+txn-36c9031c26972b6f,2025-11-09,expense,Entertainment,BookMyShow,1930.01,Credit Card
+txn-8d6e7f0e127853e3,2025-11-10,expense,Transport,Indian Oil,499.43,Debit Card
+txn-31930213e70fb904,2025-11-13,expense,Food,Swiggy,688.9,Credit Card
+txn-b4f4a4d275ae145a,2025-11-13,expense,Entertainment,BookMyShow,2638.41,Credit Card
+txn-54a1c1e36dea776c,2025-11-16,expense,Transport,Uber,1898.64,UPI
+txn-0e93b9fa9e2ab8ed,2025-11-17,expense,Entertainment,Netflix,120.0,Wallet
+txn-b6df246a9cdc36a4,2025-11-17,expense,Utilities,Jio Mobile,3438.07,Credit Card
+txn-17968252f13c0b41,2025-11-18,expense,Transport,Indian Oil,430.1,Credit Card
+txn-d908ea220bf3fd13,2025-11-20,expense,Food,BigBasket,1353.81,Credit Card
+txn-b91a1ebc76225f37,2025-11-23,expense,Education,Kindle Store,2335.87,Credit Card
+txn-dde332887168faf8,2025-11-23,expense,Food,Local Grocery,790.13,Credit Card
+txn-c2eafeac19aca2bd,2025-11-25,expense,Food,Swiggy,954.27,Credit Card
+txn-b48e675ff9b601f0,2025-11-27,expense,Food,Local Grocery,972.93,UPI
+txn-926dd7ee06a30112,2025-11-28,income,Salary,Northstar Payroll,177379.91,Bank Transfer
+txn-4d662afa2dd0eb63,2025-12-02,expense,Healthcare,Apollo Pharmacy,2795.94,Debit Card
+txn-6ce1370247d69a9d,2025-12-04,expense,Transport,Uber,940.17,Credit Card
+txn-3103f0c08d1d7b9a,2025-12-05,expense,Housing,Metro Homes Rent,47000.0,Net Banking
+txn-37c28cb3d02df8c2,2025-12-05,expense,Food,Blinkit,2364.3,UPI
+txn-6d81067a26496654,2025-12-05,expense,Shopping,Amazon India,4334.25,UPI
+txn-ffe95dccecb14589,2025-12-06,expense,Shopping,Myntra,120.0,UPI
+txn-c7bf45dc25edfa2c,2025-12-08,expense,Food,Swiggy,2130.58,Debit Card
+txn-d6962fc1d243de4e,2025-12-08,expense,Transport,Uber,1081.21,Credit Card
+txn-1035356acbbd103f,2025-12-09,expense,Utilities,Airtel Fiber,2693.37,UPI
+txn-7f69b5b8527e0480,2025-12-09,expense,Transport,Indian Oil,686.67,Wallet
+txn-b35cf33af825f349,2025-12-10,expense,Utilities,Tata Power,3019.57,Credit Card
+txn-d8568126f62225af,2025-12-10,expense,Other,Stationery Hub,3489.52,Credit Card
+txn-ee2946f2c26a3671,2025-12-10,expense,Food,Swiggy,120.0,Credit Card
+txn-4dd622dd7c0836b1,2025-12-11,expense,Food,BigBasket,1577.41,Wallet
+txn-9860f5357353e479,2025-12-11,expense,Entertainment,Netflix,3059.83,UPI
+txn-1207ef1dc4c780d0,2025-12-12,expense,Food,Local Grocery,1934.87,Credit Card
+txn-5da9422d97efdd6c,2025-12-14,expense,Other,Gift Store,665.58,Credit Card
+txn-fa68e4fcf8ebe042,2025-12-14,income,Investment,Index Fund Dividend,10763.43,Net Banking
+txn-4a4e576cfd5e4b66,2025-12-16,expense,Education,Udemy,4500.04,UPI
+txn-51f6f06a15f3ec26,2025-12-16,expense,Shopping,Decathlon,4721.66,UPI
+txn-6151a52f8abf1f90,2025-12-16,expense,Healthcare,City Clinic,120.0,Debit Card
+txn-a6f947c15b847e0b,2025-12-16,expense,Food,BigBasket,2391.96,Credit Card
+txn-51dd7635ba9f2f8b,2025-12-19,expense,Entertainment,Spotify,2267.44,Credit Card
+txn-a9d3ec8c2d5e3dc9,2025-12-19,expense,Utilities,Mahanagar Gas,3007.99,UPI
+txn-640db4914e141473,2025-12-20,expense,Transport,Uber,514.49,UPI
+txn-cfd7670a0e102900,2025-12-25,expense,Education,Udemy,120.0,Wallet
+txn-e11cd318e834694f,2025-12-25,expense,Transport,Indian Oil,921.02,Credit Card
+txn-8ca1eef5171cb5b7,2025-12-26,expense,Transport,Indian Oil,1286.88,UPI
+txn-6e1121252db72830,2025-12-27,expense,Shopping,Croma,6347.28,UPI
+txn-e9573bc48feaaf0c,2025-12-27,expense,Entertainment,BookMyShow,835.18,Credit Card
+txn-3be610ee116cef65,2025-12-28,income,Salary,Northstar Payroll,179990.3,Bank Transfer
+txn-3266d315ab917924,2026-01-01,expense,Transport,Indian Oil,1067.69,Cash
+txn-a41c2c0bff9d9e5b,2026-01-01,expense,Shopping,Myntra,120.0,Credit Card
+txn-115306b971f438cb,2026-01-02,expense,Education,Coursera,2491.15,Net Banking
+txn-1cbe7d95a94861bd,2026-01-02,expense,Food,BigBasket,164.44,Net Banking
+txn-a56adf9ef3e582ee,2026-01-03,expense,Utilities,Mahanagar Gas,1916.33,UPI
+txn-6012fa4b70a701ad,2026-01-04,expense,Healthcare,City Clinic,3706.88,UPI
+txn-fae00560adfb31e1,2026-01-05,expense,Housing,Metro Homes Rent,47000.0,Net Banking
+txn-907c7caac99ec83c,2026-01-06,expense,Entertainment,BookMyShow,515.21,Credit Card
+txn-d78fab5ed49766a8,2026-01-06,expense,Food,BigBasket,2453.98,Debit Card
+txn-01f0a3b83ac03d88,2026-01-08,expense,Shopping,Decathlon,1761.04,Credit Card
+txn-7a79eb53c769d308,2026-01-09,expense,Food,Star Bazaar,578.03,Credit Card
+txn-3c75a0c6a6a4af2c,2026-01-11,expense,Shopping,Decathlon,1417.73,Credit Card
+txn-1348a4c64493858e,2026-01-15,expense,Healthcare,Practo,1164.27,UPI
+txn-51e4e66a02ce6c5d,2026-01-16,expense,Utilities,Mahanagar Gas,2984.15,Credit Card
+txn-f0f236f24b87ac1a,2026-01-16,expense,Entertainment,Netflix,537.79,Debit Card
+txn-d8dc8b4ef9f8173f,2026-01-17,expense,Other,Gift Store,899.12,Credit Card
+txn-7a3d62f5039eb946,2026-01-18,expense,Utilities,Tata Power,1507.25,Debit Card
+txn-49c92bbd25a495d1,2026-01-19,expense,Transport,Metro Card,1255.39,Credit Card
+txn-c4ab37c28f870ff5,2026-01-19,expense,Food,BigBasket,1026.3,Credit Card
+txn-c72a07a953cff8e2,2026-01-21,expense,Other,Stationery Hub,1791.75,Credit Card
+txn-0c6ecbe97adf6f47,2026-01-23,expense,Transport,Uber,350.64,Credit Card
+txn-1895d7f57abd75cd,2026-01-23,expense,Transport,Metro Card,667.52,UPI
+txn-b242f90e77c26f48,2026-01-23,expense,Food,BigBasket,120.0,Debit Card
+txn-eacdac0261178ef9,2026-01-24,expense,Entertainment,BookMyShow,483.52,UPI
+txn-2f6c4d30e8e42a35,2026-01-25,expense,Food,BigBasket,1528.78,Debit Card
+txn-9fc5d5b9e5873724,2026-01-25,expense,Shopping,Croma,229.03,UPI
+txn-db93ad545b679afb,2026-01-26,expense,Entertainment,PVR Cinemas,3039.85,Credit Card
+txn-aaa3d4c9bf1780fa,2026-01-28,income,Salary,Northstar Payroll,182679.1,Bank Transfer
+txn-28d1439f05179bb5,2026-02-01,expense,Other,Home Repair Studio,68500.0,Net Banking
+txn-4001868485b3b25a,2026-02-01,expense,Transport,Metro Card,623.97,Credit Card
+txn-8f2c49cc11894812,2026-02-01,expense,Utilities,Mahanagar Gas,3006.93,UPI
+txn-e75c7fa2af2d3d34,2026-02-02,expense,Transport,Uber,748.99,Credit Card
+txn-0cb1f37603f63ea4,2026-02-03,expense,Education,Udemy,2308.98,UPI
+txn-937ec883736e7b6d,2026-02-03,expense,Food,Blinkit,120.0,UPI
+txn-1aeb133bdf63eefe,2026-02-04,expense,Shopping,Amazon India,5422.73,Credit Card
+txn-96d70177bd8fb470,2026-02-04,expense,Food,Blinkit,502.66,UPI
+txn-dd2a0eaa5d384fc3,2026-02-04,expense,Transport,Indian Oil,847.85,Credit Card
+txn-2a0c275018231b02,2026-02-05,expense,Utilities,Airtel Fiber,1590.41,UPI
+txn-70da3ceb3ed6e5d7,2026-02-05,expense,Housing,Metro Homes Rent,47000.0,Net Banking
+txn-8669190b10adb5a5,2026-02-05,expense,Food,Star Bazaar,1596.54,Net Banking
+txn-7ce8fa534722b78e,2026-02-06,expense,Food,Swiggy,2224.13,UPI
+txn-b36f82e28bcdbd30,2026-02-08,expense,Entertainment,BookMyShow,1207.58,Net Banking
+txn-fa804ee3689b2959,2026-02-08,expense,Food,Local Grocery,1559.96,UPI
+txn-11b23c0cd00d5fef,2026-02-09,expense,Shopping,Croma,5391.57,Credit Card
+txn-12811ff68bd4c3fb,2026-02-09,expense,Transport,Ola,698.56,UPI
+txn-c9d2bc57ee75a90f,2026-02-10,expense,Food,Swiggy,708.13,Credit Card
+txn-9ea79ad56effce5b,2026-02-13,expense,Education,Udemy,1695.42,UPI
+txn-c49c55b5e0541a38,2026-02-13,expense,Food,Swiggy,120.0,UPI
+txn-edaad905514a941c,2026-02-13,expense,Shopping,Myntra,7154.89,UPI
+txn-df57a0b3056ddb58,2026-02-15,expense,Utilities,Jio Mobile,2102.33,Credit Card
+txn-64478ca7a39aa1e7,2026-02-17,expense,Transport,Indian Oil,120.0,Credit Card
+txn-701599cf4a58d0d3,2026-02-18,expense,Shopping,Croma,3672.23,Cash
+txn-751ab158724284a2,2026-02-18,expense,Other,Stationery Hub,1395.75,UPI
+txn-3724624cbae3f22a,2026-02-21,expense,Healthcare,Practo,2155.24,Wallet
+txn-7670d43ff7e7b286,2026-02-23,expense,Transport,Metro Card,1369.98,Credit Card
+txn-85d684213a1a65e6,2026-02-26,expense,Food,Local Grocery,1176.15,Credit Card
+txn-b3d9ad0d29d1e584,2026-02-26,expense,Entertainment,Spotify,3004.06,Credit Card
+txn-d3787ba512175083,2026-02-26,expense,Utilities,Mahanagar Gas,3185.5,UPI
+txn-648e4bf2a582a9fb,2026-02-28,income,Salary,Northstar Payroll,183353.45,Bank Transfer
+txn-6ea5c0407836ad8b,2026-03-05,expense,Housing,Metro Homes Rent,47000.0,Net Banking
+txn-e09dc9c69455929d,2026-03-05,expense,Shopping,Croma,4773.21,Debit Card
+txn-1ec5742b1e3be3ed,2026-03-07,expense,Healthcare,City Clinic,1512.16,Wallet
+txn-24fa7b272ddb3a1a,2026-03-07,expense,Shopping,Decathlon,4433.61,Cash
+txn-60d0bef98ea82b89,2026-03-07,expense,Transport,Metro Card,382.88,Credit Card
+txn-2badb6790428e425,2026-03-09,expense,Entertainment,Netflix,120.0,UPI
+txn-15641b82937a1201,2026-03-10,expense,Transport,Metro Card,947.78,Credit Card
+txn-d2d6fc1caa651f79,2026-03-10,expense,Food,BigBasket,731.42,Wallet
+txn-03fa6035e0c0f989,2026-03-11,expense,Food,Blinkit,1508.2,Net Banking
+txn-efe6748df46799c0,2026-03-11,expense,Transport,Ola,1367.55,UPI
+txn-f685cdf43d22b07f,2026-03-11,expense,Healthcare,Apollo Pharmacy,2638.29,Credit Card
+txn-5c12e29d9c262a23,2026-03-12,expense,Food,Star Bazaar,1769.36,Credit Card
+txn-a6c78be8b1179eb0,2026-03-14,expense,Food,BigBasket,2319.76,UPI
+txn-b815a17d8e904ad5,2026-03-14,expense,Food,Star Bazaar,776.97,Debit Card
+txn-f098bb8901c0f62f,2026-03-14,expense,Education,Coursera,1397.4,Credit Card
+txn-c9f87544f76a7a23,2026-03-15,expense,Transport,Uber,832.31,Credit Card
+txn-005bcdbdacab68d5,2026-03-16,expense,Entertainment,Spotify,2141.35,Credit Card
+txn-39cb090758a6b4d9,2026-03-16,expense,Other,Gift Store,653.53,UPI
+txn-bcf01d02b1f65f17,2026-03-16,expense,Entertainment,Netflix,592.26,UPI
+txn-5501a687e9b38e0e,2026-03-17,expense,Food,Star Bazaar,1524.82,UPI
+txn-f5ab3bd97e2b1b76,2026-03-18,expense,Other,Gift Store,758.38,UPI
+txn-3534880438a86805,2026-03-19,income,Freelance,Independent Client,17215.23,Bank Transfer
+txn-4fbdcec101c1b6d6,2026-03-20,expense,Utilities,Jio Mobile,2471.85,Debit Card
+txn-7115ecec065b0523,2026-03-20,expense,Entertainment,PVR Cinemas,2144.46,Wallet
+txn-b25996efc4927600,2026-03-20,income,Investment,Index Fund Dividend,6553.69,Net Banking
+txn-271255cc15e05fdf,2026-03-21,expense,Other,Society Office,2372.96,Debit Card
+txn-840d6657d62d4af4,2026-03-21,expense,Food,Local Grocery,834.89,UPI
+txn-b5432c9dcccd8eae,2026-03-23,expense,Food,Star Bazaar,1139.15,Net Banking
+txn-69f8048df091b7ef,2026-03-24,expense,Utilities,Airtel Fiber,2266.17,UPI
+txn-aa058b84ec886895,2026-03-25,expense,Transport,Indian Oil,1260.11,UPI
+txn-fd724d69c69d69db,2026-03-25,expense,Shopping,Decathlon,1590.06,Debit Card
+txn-1a9f343ae8389ae3,2026-03-27,expense,Transport,Ola,1772.85,UPI
+txn-1fa78b6dd02167ae,2026-03-28,income,Salary,Northstar Payroll,183137.55,Bank Transfer
+txn-bd2d3806e11c67c4,2026-04-01,expense,Utilities,Mahanagar Gas,3016.85,UPI
+txn-ec14ad20f4c474c8,2026-04-01,expense,Healthcare,City Clinic,120.0,UPI
+txn-5b238152512414c5,2026-04-03,expense,Education,Udemy,3773.99,UPI
+txn-e09341bfb2d0c3fa,2026-04-04,expense,Utilities,Airtel Fiber,2246.9,UPI
+txn-126de8c2d8601112,2026-04-05,expense,Housing,Metro Homes Rent,47000.0,Net Banking
+txn-2238a4a5bba79bb2,2026-04-05,expense,Utilities,Mahanagar Gas,3716.62,Credit Card
+txn-b50195079e82387b,2026-04-05,expense,Food,Blinkit,3265.78,Credit Card
+txn-e6acb57082cc1db0,2026-04-06,expense,Healthcare,Apollo Pharmacy,120.0,UPI
+txn-4e96bd68cbd94a3b,2026-04-07,expense,Food,BigBasket,1370.14,UPI
+txn-1a258b85c95b606a,2026-04-09,expense,Other,Gift Store,1585.81,Cash
+txn-b852da8f5258baa3,2026-04-10,expense,Utilities,Tata Power,2852.16,UPI
+txn-0eb9a8d05eb2ac17,2026-04-11,expense,Food,BigBasket,418.69,Wallet
+txn-ed424351d8d9fe4d,2026-04-11,expense,Entertainment,PVR Cinemas,1511.01,UPI
+txn-1fe1a5831669c55c,2026-04-13,expense,Food,BigBasket,2626.3,Wallet
+txn-f770421625906ebd,2026-04-13,expense,Shopping,Amazon India,5998.4,Debit Card
+txn-e17fb765356f46fb,2026-04-14,expense,Transport,Indian Oil,412.26,UPI
+txn-209e9c9809bb82fa,2026-04-15,expense,Entertainment,PVR Cinemas,2426.91,Wallet
+txn-a01deca3fa2bd246,2026-04-15,expense,Transport,Indian Oil,830.68,UPI
+txn-e763784eb92e3717,2026-04-15,expense,Shopping,Croma,4806.79,UPI
+txn-30e1d20aa0ebb08b,2026-04-19,expense,Transport,Metro Card,386.26,Wallet
+txn-7ffd25a1b8844307,2026-04-21,expense,Entertainment,Spotify,1921.91,Credit Card
+txn-36fa5b9ac280c3ce,2026-04-23,expense,Food,Swiggy,1050.14,UPI
+txn-abbec88853168f08,2026-04-23,expense,Transport,Ola,197.03,UPI
+txn-26eb6bd7295976d4,2026-04-24,expense,Food,Swiggy,1732.34,Credit Card
+txn-3b7e27647a2313ce,2026-04-26,expense,Education,Udemy,2458.92,Credit Card
+txn-6da2003ee74232de,2026-04-26,expense,Food,BigBasket,1236.52,UPI
+txn-a71205eb2f844b0e,2026-04-27,expense,Food,Blinkit,1816.53,Wallet
+txn-4d08aef4f1765622,2026-04-28,income,Salary,Northstar Payroll,184536.35,Bank Transfer
+txn-0904639e017bbd10,2026-05-02,expense,Entertainment,Spotify,1986.95,Debit Card
+txn-a14b53d01a9f06b7,2026-05-03,expense,Food,Blinkit,1289.42,Credit Card
+txn-b42b0124c233367b,2026-05-03,expense,Utilities,Airtel Fiber,1505.93,Credit Card
+txn-5629e329bf3984b2,2026-05-05,expense,Housing,Metro Homes Rent,47000.0,Net Banking
+txn-b0134f20cd9a7eaf,2026-05-05,expense,Transport,Indian Oil,1177.39,UPI
+txn-9ae735cb3e0c3575,2026-05-07,expense,Food,Swiggy,237.83,UPI
+txn-ff97dc39d4467ca3,2026-05-07,expense,Other,Gift Store,1419.58,UPI
+txn-8b941a5473236e12,2026-05-09,expense,Food,BigBasket,2328.44,Credit Card
+txn-d3aab9e54e7c73da,2026-05-09,expense,Transport,Metro Card,1310.72,Debit Card
+txn-e127148e50f12277,2026-05-10,expense,Transport,Indian Oil,734.18,Credit Card
+txn-bf21fb70d86bf84d,2026-05-11,expense,Other,Gift Store,882.64,UPI
+txn-d8189dbad4f5a911,2026-05-11,expense,Education,Udemy,1828.61,UPI
+txn-26b3bb1ee401ad86,2026-05-13,expense,Shopping,Amazon India,2281.1,UPI
+txn-a62d86683544411e,2026-05-15,expense,Food,Star Bazaar,1087.88,Net Banking
+txn-d1c336359f15fa5a,2026-05-15,expense,Food,Swiggy,839.01,Wallet
+txn-e9003c55ab31d44b,2026-05-15,expense,Utilities,Tata Power,1168.74,UPI
+txn-fbd27167ab17eadc,2026-05-15,expense,Healthcare,City Clinic,2617.71,UPI
+txn-3f6f0d0ec97e089e,2026-05-17,income,Freelance,Independent Client,21588.77,Bank Transfer
+txn-8757618bc21d2e25,2026-05-17,expense,Transport,Ola,120.0,UPI
+txn-de30815676680c43,2026-05-17,expense,Utilities,Mahanagar Gas,3064.12,UPI
+txn-92c0f1bbca33ae5e,2026-05-18,expense,Entertainment,PVR Cinemas,3939.27,UPI
+txn-afd1853306838a13,2026-05-20,expense,Food,Blinkit,734.43,Credit Card
+txn-5947c0b740fe6742,2026-05-22,expense,Food,Blinkit,2115.46,UPI
+txn-ce495b2d20e29c9d,2026-05-23,expense,Entertainment,BookMyShow,1348.1,Credit Card
+txn-68b80a3cf408e834,2026-05-26,expense,Shopping,Decathlon,2634.26,Cash
+txn-67bf5989b2ed7d44,2026-05-27,expense,Transport,Ola,456.18,Credit Card
+txn-2cf5dce45de2adb0,2026-05-28,income,Salary,Northstar Payroll,185724.06,Bank Transfer
+txn-a7e65de1238e846f,2026-06-01,expense,Food,Blinkit,120.0,Credit Card
+txn-ed7c9d9cb978fefd,2026-06-01,expense,Food,BigBasket,615.69,UPI
+txn-49bc9adf9e3c3b05,2026-06-03,expense,Food,Star Bazaar,1924.33,UPI
+txn-5d52367857e3d7e9,2026-06-05,expense,Housing,Metro Homes Rent,47000.0,Net Banking
+txn-b7dcfacd7afe81f5,2026-06-05,expense,Entertainment,BookMyShow,599.19,Credit Card
+txn-45277515426b77f7,2026-06-06,expense,Utilities,Airtel Fiber,2594.61,Credit Card
+txn-b8437705b020ee4f,2026-06-06,expense,Transport,Indian Oil,754.13,UPI
+txn-be88a9572aa92fca,2026-06-06,expense,Food,Swiggy,742.57,UPI
+txn-9e5e61a6cad3fd10,2026-06-08,expense,Entertainment,BookMyShow,1619.06,Wallet
+txn-36cd465ef39aade3,2026-06-09,expense,Shopping,Decathlon,3030.68,UPI
+txn-cec9b431b09b9a93,2026-06-11,expense,Shopping,Decathlon,5009.99,UPI
+txn-eccfad747f95e348,2026-06-11,expense,Utilities,Tata Power,2384.54,Net Banking
+txn-012fe8673d977a42,2026-06-12,expense,Food,Swiggy,372.8,Credit Card
+txn-c152bc51aaf822e5,2026-06-12,expense,Food,Swiggy,1587.36,Credit Card
+txn-0265d79ee2eb24aa,2026-06-13,expense,Transport,Uber,1088.79,Credit Card
+txn-0437568f85d55881,2026-06-13,expense,Entertainment,Spotify,694.94,Credit Card
+txn-41d190911006c799,2026-06-13,income,Freelance,Independent Client,17678.12,Bank Transfer
+txn-b3e3a840f859f123,2026-06-14,expense,Shopping,Croma,2151.01,Debit Card
+txn-ec3da445248ea6ec,2026-06-14,expense,Transport,Metro Card,884.51,UPI
+txn-03f702c74632d55a,2026-06-15,expense,Food,Blinkit,645.03,UPI
+txn-b4ca1005fe5f4dc9,2026-06-18,expense,Transport,Uber,1616.02,Cash
+txn-cd60cf6bb967738a,2026-06-18,expense,Food,Star Bazaar,1674.27,Credit Card
+txn-f7ecf0b45b9b0fd1,2026-06-19,expense,Education,Udemy,3063.18,Credit Card
+txn-f8158bf8fd3f1f25,2026-06-19,expense,Healthcare,Apollo Pharmacy,1444.87,Credit Card
+txn-f2e2ba032e952881,2026-06-22,expense,Other,Stationery Hub,1657.79,Wallet
+txn-79daa8ad67838604,2026-06-23,expense,Other,Society Office,120.0,UPI
+txn-0fd07507686fb93b,2026-06-24,expense,Entertainment,Spotify,1345.08,Cash
+txn-7b8d115cf73e19c1,2026-06-25,expense,Other,Stationery Hub,341.11,UPI
+txn-4267610dcada3c7d,2026-06-27,expense,Utilities,Jio Mobile,2984.54,UPI
+txn-6742220eab091c7e,2026-06-28,income,Salary,Northstar Payroll,186325.77,Bank Transfer

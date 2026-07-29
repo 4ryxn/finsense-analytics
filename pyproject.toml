@@ -1,0 +1,19 @@
+[project]
+name = "finsense-analytics"
+version = "0.1.0"
+description = "Compact Streamlit personal finance analytics and ML dashboard."
+requires-python = ">=3.11"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+src = ["src", "tests", "scripts"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+ignore = ["E501"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+

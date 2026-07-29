@@ -1,0 +1,3 @@
+date,transaction_type,category,merchant,amount,payment_method,transaction_id
+2026-01-31,income,Salary,Acme Payroll,150000,Bank Transfer,txn-template-001
+2026-02-01,expense,Food,Neighborhood Grocery,3200,UPI,txn-template-002
