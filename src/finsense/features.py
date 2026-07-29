@@ -4,6 +4,25 @@ import numpy as np
 import pandas as pd
 
 FEATURE_COLUMNS = [
+    "previous_month_income",
+    "previous_month_savings",
+    "previous_month_savings_rate",
+    "previous_month_average_transaction_value",
+    "previous_month_expense_frequency",
+    "previous_month_weekend_spending_ratio",
+    "previous_month_merchant_diversity",
+    "previous_month_category_diversity",
+    "previous_month_expense_growth",
+    "expense_lag_1",
+    "expense_lag_2",
+    "expense_lag_3",
+    "rolling_expense_3m",
+    "rolling_expense_6m",
+    "month_sin",
+    "month_cos",
+]
+
+RAW_FEATURE_COLUMNS = [
     "monthly_income",
     "net_savings",
     "savings_rate",
@@ -13,14 +32,33 @@ FEATURE_COLUMNS = [
     "merchant_diversity",
     "category_diversity",
     "expense_growth",
+    "monthly_expense",
     "expense_lag_1",
     "expense_lag_2",
-    "expense_lag_3",
     "rolling_expense_3m",
     "rolling_expense_6m",
     "month_sin",
     "month_cos",
 ]
+
+DISPLAY_FEATURE_LABELS = {
+    "previous_month_income": "Previous-month income",
+    "previous_month_savings": "Previous-month savings",
+    "previous_month_savings_rate": "Previous-month savings rate",
+    "previous_month_average_transaction_value": "Previous-month average transaction",
+    "previous_month_expense_frequency": "Previous-month expense frequency",
+    "previous_month_weekend_spending_ratio": "Previous-month weekend spending ratio",
+    "previous_month_merchant_diversity": "Previous-month merchant diversity",
+    "previous_month_category_diversity": "Previous-month category diversity",
+    "previous_month_expense_growth": "Previous-month expense growth",
+    "expense_lag_1": "Expense lag 1",
+    "expense_lag_2": "Expense lag 2",
+    "expense_lag_3": "Expense lag 3",
+    "rolling_expense_3m": "Three-month rolling expense",
+    "rolling_expense_6m": "Six-month rolling expense",
+    "month_sin": "Forecast month sine",
+    "month_cos": "Forecast month cosine",
+}
 
 
 def monthly_features(df: pd.DataFrame) -> pd.DataFrame:
@@ -88,9 +126,31 @@ def modeling_frame(df: pd.DataFrame) -> tuple[pd.DataFrame, pd.Series]:
     features = monthly_features(df)
     if len(features) <= 3:
         return pd.DataFrame(columns=FEATURE_COLUMNS), pd.Series(dtype=float, name="monthly_expense")
-    predictors = features[FEATURE_COLUMNS].shift(1)
+    predictors = pd.DataFrame(
+        {
+            "previous_month_income": features["monthly_income"].shift(1),
+            "previous_month_savings": features["net_savings"].shift(1),
+            "previous_month_savings_rate": features["savings_rate"].shift(1),
+            "previous_month_average_transaction_value": features["average_transaction_value"].shift(
+                1
+            ),
+            "previous_month_expense_frequency": features["expense_frequency"].shift(1),
+            "previous_month_weekend_spending_ratio": features["weekend_spending_ratio"].shift(1),
+            "previous_month_merchant_diversity": features["merchant_diversity"].shift(1),
+            "previous_month_category_diversity": features["category_diversity"].shift(1),
+            "previous_month_expense_growth": features["expense_growth"].shift(1),
+            "expense_lag_1": features["monthly_expense"].shift(1),
+            "expense_lag_2": features["monthly_expense"].shift(2),
+            "expense_lag_3": features["monthly_expense"].shift(3),
+            "rolling_expense_3m": features["monthly_expense"].shift(1).rolling(3).mean(),
+            "rolling_expense_6m": features["monthly_expense"].shift(1).rolling(6).mean(),
+            "month_sin": features["month_sin"],
+            "month_cos": features["month_cos"],
+        }
+    )
     frame = features.iloc[3:].copy()
     x = predictors.iloc[3:].fillna(0.0).reset_index(drop=True)
+    x["feature_month"] = frame["month"].reset_index(drop=True)
     y = frame["monthly_expense"].reset_index(drop=True)
     return x, y
 
@@ -102,15 +162,17 @@ def next_month_feature_row(monthly: pd.DataFrame) -> pd.DataFrame:
     next_month = pd.Timestamp(last["month"]) + pd.offsets.MonthBegin(1)
     recent = monthly.tail(6)
     row = {
-        "monthly_income": float(last["monthly_income"]),
-        "net_savings": float(last["monthly_income"] - last["monthly_expense"]),
-        "savings_rate": float(last["savings_rate"]),
-        "average_transaction_value": float(last["average_transaction_value"]),
-        "expense_frequency": float(last["expense_frequency"]),
-        "weekend_spending_ratio": float(last["weekend_spending_ratio"]),
-        "merchant_diversity": float(last["merchant_diversity"]),
-        "category_diversity": float(last["category_diversity"]),
-        "expense_growth": float(monthly["monthly_expense"].pct_change().fillna(0).iloc[-1]),
+        "previous_month_income": float(last["monthly_income"]),
+        "previous_month_savings": float(last["monthly_income"] - last["monthly_expense"]),
+        "previous_month_savings_rate": float(last["savings_rate"]),
+        "previous_month_average_transaction_value": float(last["average_transaction_value"]),
+        "previous_month_expense_frequency": float(last["expense_frequency"]),
+        "previous_month_weekend_spending_ratio": float(last["weekend_spending_ratio"]),
+        "previous_month_merchant_diversity": float(last["merchant_diversity"]),
+        "previous_month_category_diversity": float(last["category_diversity"]),
+        "previous_month_expense_growth": float(
+            monthly["monthly_expense"].pct_change().fillna(0).iloc[-1]
+        ),
         "expense_lag_1": float(last["monthly_expense"]),
         "expense_lag_2": float(monthly["monthly_expense"].iloc[-2]) if len(monthly) >= 2 else 0.0,
         "expense_lag_3": float(monthly["monthly_expense"].iloc[-3]) if len(monthly) >= 3 else 0.0,

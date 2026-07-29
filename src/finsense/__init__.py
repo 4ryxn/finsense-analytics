@@ -9,4 +9,7 @@ __all__ = [
     "features",
     "forecasting",
     "insights",
+    "reporting",
+    "scenarios",
+    "scoring",
 ]

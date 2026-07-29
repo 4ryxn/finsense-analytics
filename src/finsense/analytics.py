@@ -8,6 +8,35 @@ def rupee(value: float | int) -> str:
     return f"₹{value:,.0f}"
 
 
+def compact_rupee(value: float | int) -> str:
+    sign = "-" if value < 0 else ""
+    amount = abs(float(value))
+    if amount >= 10_000_000:
+        return f"{sign}₹{amount / 10_000_000:.2f}Cr"
+    if amount >= 100_000:
+        return f"{sign}₹{amount / 100_000:.2f}L"
+    if amount >= 1_000:
+        return f"{sign}₹{amount / 1_000:.1f}K"
+    return f"{sign}₹{amount:,.0f}"
+
+
+def presentation_transactions(df: pd.DataFrame) -> pd.DataFrame:
+    columns = ["date", "merchant", "category", "transaction_type", "amount", "payment_method"]
+    present = df[columns].copy()
+    present["date"] = present["date"].dt.strftime("%Y-%m-%d")
+    present["amount"] = present["amount"].map(rupee)
+    return present.rename(
+        columns={
+            "date": "Date",
+            "merchant": "Merchant",
+            "category": "Category",
+            "transaction_type": "Type",
+            "amount": "Amount",
+            "payment_method": "Payment Method",
+        }
+    )
+
+
 def apply_filters(
     df: pd.DataFrame,
     start_date: pd.Timestamp | None = None,
@@ -40,6 +69,7 @@ def kpis(df: pd.DataFrame, monthly_budget: float) -> dict[str, float]:
         "total_expenses": total_expense,
         "net_savings": net,
         "savings_rate": (net / total_income * 100) if total_income else 0.0,
+        "average_monthly_expense": monthly_expense,
         "average_expense_transaction": float(expense["amount"].mean())
         if not expense.empty
         else 0.0,
@@ -53,7 +83,12 @@ def monthly_summary(df: pd.DataFrame) -> pd.DataFrame:
     summary = (
         df.assign(month=df["date"].dt.to_period("M").dt.to_timestamp())
         .pivot_table(
-            index="month", columns="transaction_type", values="amount", aggfunc="sum", fill_value=0
+            index="month",
+            columns="transaction_type",
+            values="amount",
+            aggfunc="sum",
+            fill_value=0,
+            observed=False,
         )
         .reset_index()
     )
@@ -66,11 +101,14 @@ def monthly_summary(df: pd.DataFrame) -> pd.DataFrame:
 
 def category_spending(df: pd.DataFrame) -> pd.DataFrame:
     expenses = df[df["transaction_type"] == "expense"]
-    return (
+    spending = (
         expenses.groupby("category", as_index=False)["amount"]
         .sum()
         .sort_values("amount", ascending=False)
     )
+    total = spending["amount"].sum()
+    spending["contribution"] = spending["amount"] / total * 100 if total else 0.0
+    return spending
 
 
 def merchant_spending(df: pd.DataFrame, top_n: int = 12) -> pd.DataFrame:
@@ -118,3 +156,17 @@ def daily_heatmap_data(df: pd.DataFrame) -> pd.DataFrame:
     expenses["weekday"] = expenses["date"].dt.day_name()
     expenses["month"] = expenses["date"].dt.month_name()
     return expenses.groupby(["weekday", "month"], as_index=False)["amount"].sum()
+
+
+def monthly_summary_bytes(df: pd.DataFrame) -> bytes:
+    return monthly_summary(df).to_csv(index=False).encode("utf-8")
+
+
+def category_concentration(df: pd.DataFrame) -> float:
+    categories = category_spending(df)
+    return float(categories["contribution"].head(3).sum()) if not categories.empty else 0.0
+
+
+def subscription_spending(df: pd.DataFrame) -> float:
+    expenses = df[df["transaction_type"] == "expense"]
+    return float(expenses.loc[expenses["category"].eq("Subscriptions"), "amount"].sum())

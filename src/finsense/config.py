@@ -26,10 +26,14 @@ CANONICAL_CATEGORIES = {
     "food": "Food",
     "transport": "Transport",
     "utilities": "Utilities",
+    "groceries": "Groceries",
     "shopping": "Shopping",
+    "dining": "Dining",
+    "subscriptions": "Subscriptions",
     "healthcare": "Healthcare",
     "entertainment": "Entertainment",
     "education": "Education",
+    "travel": "Travel",
     "other": "Other",
 }
 

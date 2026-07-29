@@ -17,6 +17,7 @@ ANOMALY_COLUMNS = [
     "amount",
     "payment_method",
     "anomaly_score",
+    "severity",
     "is_anomaly",
     "explanation",
 ]
@@ -32,6 +33,8 @@ def _explain(row: pd.Series, expenses: pd.DataFrame) -> str:
         reasons.append("unusual merchant/category amount")
     if row["date"].day <= 3 or row["date"].day >= 28:
         reasons.append("unusual timing near month boundary")
+    if row["anomaly_score"] <= expenses["anomaly_score"].quantile(0.10):
+        reasons.append("low isolation score")
     return (
         "; ".join(reasons)
         if reasons
@@ -73,6 +76,17 @@ def detect_anomalies(df: pd.DataFrame, contamination: float = 0.04) -> pd.DataFr
     model.fit(expenses[numeric + categorical])
     expenses["anomaly_score"] = model.decision_function(expenses[numeric + categorical])
     expenses["is_anomaly"] = model.predict(expenses[numeric + categorical]) == -1
+    low = expenses["anomaly_score"].quantile(0.05)
+    medium = expenses["anomaly_score"].quantile(0.15)
+    expenses["severity"] = np.select(
+        [
+            expenses["anomaly_score"] <= low,
+            expenses["anomaly_score"] <= medium,
+            expenses["is_anomaly"],
+        ],
+        ["High", "Medium", "Low"],
+        default="Normal",
+    )
     expenses["explanation"] = expenses.apply(lambda row: _explain(row, expenses), axis=1)
     return expenses[ANOMALY_COLUMNS].sort_values(
         ["is_anomaly", "anomaly_score"], ascending=[False, True]

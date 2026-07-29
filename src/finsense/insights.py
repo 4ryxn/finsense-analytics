@@ -2,7 +2,13 @@ from __future__ import annotations
 
 import pandas as pd
 
-from finsense.analytics import category_spending, kpis, monthly_summary, rupee
+from finsense.analytics import (
+    category_spending,
+    kpis,
+    monthly_summary,
+    rupee,
+    subscription_spending,
+)
 from finsense.forecasting import ForecastResult
 
 
@@ -65,3 +71,58 @@ def build_insights(
         )
 
     return insights
+
+
+def build_recommendations(
+    df: pd.DataFrame,
+    monthly_budget: float,
+    monthly_savings_goal: float,
+    anomalies: pd.DataFrame | None = None,
+) -> list[str]:
+    if df.empty:
+        return ["Load valid transactions to generate recommendations."]
+
+    recommendations: list[str] = []
+    metrics = kpis(df, monthly_budget)
+    monthly = monthly_summary(df)
+    categories = category_spending(df)
+
+    if metrics["budget_utilization"] > 100:
+        recommendations.append(
+            f"Budget overrun: average monthly expenses are {metrics['budget_utilization']:.1f}% of budget."
+        )
+    if metrics["savings_rate"] < 15:
+        recommendations.append(
+            f"Low savings rate: current savings rate is {metrics['savings_rate']:.1f}%."
+        )
+    if not categories.empty:
+        top = categories.iloc[0]
+        if top["contribution"] > 35:
+            recommendations.append(
+                f"Category concentration: {top['category']} contributes {top['contribution']:.1f}% of spending."
+            )
+        discretionary = categories[
+            categories["category"].isin(["Dining", "Entertainment", "Shopping", "Travel"])
+        ]["amount"].sum()
+        total = categories["amount"].sum()
+        if total and discretionary / total > 0.30:
+            recommendations.append(
+                f"High discretionary spending: flexible categories are {discretionary / total * 100:.1f}% of expenses."
+            )
+    subs = subscription_spending(df)
+    if subs > monthly_budget * max(monthly["month"].nunique(), 1) * 0.05:
+        recommendations.append(
+            f"Subscription review: subscriptions total {rupee(subs)} in this view."
+        )
+    if len(monthly) >= 2 and monthly["expense"].iloc[-2] > 0:
+        growth = (monthly["expense"].iloc[-1] / monthly["expense"].iloc[-2] - 1) * 100
+        if growth > 20:
+            recommendations.append(f"Rapid expense growth: latest month increased {growth:.1f}%.")
+    if len(monthly) >= 3 and monthly["net"].std(ddof=0) > monthly_savings_goal:
+        recommendations.append("Cash flow volatility exceeds the selected monthly savings goal.")
+    if anomalies is not None and not anomalies.empty and int(anomalies["is_anomaly"].sum()) > 0:
+        recommendations.append(
+            "Review unusual transactions before using them as a recurring budget baseline."
+        )
+
+    return recommendations or ["No major rule-based warnings for the current filters."]
