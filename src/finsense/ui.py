@@ -595,4 +595,9 @@ def show_methodology(source_label: str) -> None:
         st.write(
             "Forecasting uses prior-month features, chronological validation, MAE model selection, and residual-derived ranges. Isolation Forest scores unusual expense transactions with deterministic random state."
         )
+    with st.expander("Uploaded-data categorization rules"):
+        st.write(
+            "Uploaded CSVs are normalized locally with transparent keyword rules, not AI categorization. "
+            "Examples: Swiggy/Zomato become Dining, rent/maintenance become Housing, Airtel/Jio/gas/power become Utilities, Netflix/Spotify/Prime become Subscriptions, and unknown descriptions become Other."
+        )
     st.info(f"Current source: {source_label}. Uploaded files are never persisted by the app.")

@@ -16,8 +16,14 @@ from finsense.data import (  # noqa: E402
     load_sample_transactions,
     template_bytes,
 )
-from finsense.etl import clean_transactions  # noqa: E402
 from finsense.forecasting import ForecastResult, run_forecast  # noqa: E402
+from finsense.imports import (  # noqa: E402
+    NONE_OPTION,
+    detect_mapping,
+    mapped_options,
+    normalize_uploaded_transactions,
+    read_uploaded_csv_bytes,
+)
 from finsense.insights import build_insights, build_recommendations  # noqa: E402
 from finsense.reporting import cleaning_report_bytes, html_report  # noqa: E402
 from finsense.scenarios import calculate_scenario  # noqa: E402
@@ -33,6 +39,16 @@ from finsense.ui import (  # noqa: E402
     show_methodology,
     show_quality,
 )
+
+REQUIRED_FIELDS = ["date", "description", "amount", "debit", "credit"]
+OPTIONAL_FIELDS = [
+    "transaction_type",
+    "category",
+    "merchant",
+    "payment_method",
+    "currency",
+    "transaction_id",
+]
 
 
 @st.cache_data(show_spinner=False)
@@ -50,14 +66,160 @@ def cached_forecast(df: pd.DataFrame, monthly_budget: float) -> ForecastResult:
     return run_forecast(df, monthly_budget)
 
 
+def _mapping_select(
+    label: str, columns: list[str], current: str | None, help_text: str | None = None
+) -> str | None:
+    options = [NONE_OPTION, *columns]
+    index = options.index(current) if current in options else 0
+    value = st.selectbox(label, options, index=index, help=help_text)
+    return None if value == NONE_OPTION else value
+
+
+def _show_upload_wizard() -> tuple[pd.DataFrame | None, object | None, str | None]:
+    st.subheader("Analyze Your Data")
+    st.caption(
+        "Upload a CSV up to 10 MB. Processing happens in memory only; files are not saved. "
+        "Use anonymized exports and remove account numbers where possible."
+    )
+    with st.expander("CSV fields and example", expanded=True):
+        st.write(
+            "FinSense accepts the template columns, debit/credit statements, signed amount statements, "
+            "and amount plus transaction-type files."
+        )
+        st.dataframe(
+            pd.DataFrame(
+                [
+                    {
+                        "date": "2026-02-01",
+                        "description": "UPI Swiggy dinner",
+                        "debit": "840",
+                        "credit": "",
+                        "category": "",
+                    }
+                ]
+            ),
+            hide_index=True,
+            use_container_width=True,
+        )
+        st.download_button(
+            "Download FinSense CSV template",
+            template_bytes(),
+            "transaction_template.csv",
+            "text/csv",
+        )
+
+    uploaded = st.file_uploader("Upload file", type=["csv"], key="main_upload")
+    if uploaded is None:
+        st.info("Upload a CSV to begin. Demo metrics are hidden while upload mode is active.")
+        return None, None, None
+
+    content = uploaded.getvalue()
+    parsed = read_uploaded_csv_bytes(content, uploaded.name)
+    if parsed.error:
+        st.error(parsed.error)
+        return None, None, None
+
+    raw = parsed.dataframe
+    detected_format, detected_mapping = detect_mapping(raw)
+    columns = [str(column) for column in raw.columns]
+    st.success(f"Upload file complete: {uploaded.name}")
+
+    steps = st.tabs(
+        [
+            "1 Upload file",
+            "2 Detect columns",
+            "3 Review mapping",
+            "4 Preview cleaned data",
+            "5 Analyze",
+        ]
+    )
+    with steps[0]:
+        st.write(f"File size: {parsed.size_bytes / 1024:.1f} KB")
+        st.write(f"Encoding: {parsed.encoding}")
+        st.caption(
+            "Unknown columns are ignored. Balance columns are never used as transaction amounts."
+        )
+    with steps[1]:
+        st.metric("Detected format", detected_format)
+        st.write("Detected mapping")
+        st.json(mapped_options(detected_mapping))
+    with steps[2]:
+        mapping = detected_mapping.copy()
+        c1, c2 = st.columns(2)
+        with c1:
+            st.write("Required mappings")
+            for field in REQUIRED_FIELDS:
+                mapping[field] = _mapping_select(
+                    field.replace("_", " ").title(),
+                    columns,
+                    mapping.get(field),
+                    "Use amount for signed amounts or amount plus transaction type. Use debit/credit for bank statements.",
+                )
+        with c2:
+            st.write("Optional mappings")
+            for field in OPTIONAL_FIELDS:
+                mapping[field] = _mapping_select(
+                    field.replace("_", " ").title(), columns, mapping.get(field)
+                )
+
+    preview = normalize_uploaded_transactions(raw, mapping, detected_format)
+    with steps[3]:
+        if preview.validation_errors:
+            for error in preview.validation_errors:
+                st.error(error)
+        metrics = st.columns(5)
+        metrics[0].metric("Input Rows", preview.raw_rows)
+        metrics[1].metric("Valid Rows", preview.report.output_rows)
+        metrics[2].metric("Rejected Rows", preview.report.invalid_rows_rejected)
+        metrics[3].metric("Missing Critical Values", preview.missing_critical_values)
+        if not preview.cleaned.empty:
+            metrics[4].metric(
+                "Date Range",
+                f"{preview.cleaned['date'].min():%Y-%m-%d} to {preview.cleaned['date'].max():%Y-%m-%d}",
+            )
+            st.dataframe(
+                preview.cleaned.drop(columns=["transaction_id"], errors="ignore").head(10),
+                use_container_width=True,
+                hide_index=True,
+            )
+        else:
+            metrics[4].metric("Date Range", "N/A")
+    with steps[4]:
+        st.write("Confirm this normalized data before opening the dashboards.")
+        if st.button("Analyze this data", type="primary", disabled=not preview.is_ready):
+            st.session_state["uploaded_cleaned"] = preview.cleaned
+            st.session_state["uploaded_report"] = preview.report
+            st.session_state["uploaded_filename"] = uploaded.name
+            st.session_state["data_mode"] = "Upload My Transactions"
+            st.rerun()
+        if st.button("Change mapping"):
+            st.session_state.pop("uploaded_cleaned", None)
+            st.session_state.pop("uploaded_report", None)
+            st.rerun()
+
+    return None, None, None
+
+
 def main() -> None:
     configure_page()
+    if "data_mode" not in st.session_state:
+        st.session_state["data_mode"] = "Explore Demo Data"
+
+    mode = st.radio(
+        "Choose how to start",
+        ["Explore Demo Data", "Upload My Transactions"],
+        horizontal=True,
+        index=0 if st.session_state["data_mode"] == "Explore Demo Data" else 1,
+    )
+    st.session_state["data_mode"] = mode
 
     with st.sidebar:
-        source = st.radio("Data source", ["Built-in sample data", "Upload CSV"])
-        uploaded = st.file_uploader(
-            "Upload transaction CSV", type=["csv"], disabled=source == "Built-in sample data"
+        source_label_sidebar = (
+            "Demo Mode"
+            if mode == "Explore Demo Data"
+            else st.session_state.get("uploaded_filename", "Upload not analyzed")
         )
+        st.caption(f"Data source: {source_label_sidebar}")
         st.download_button(
             "Download CSV template", template_bytes(), "transaction_template.csv", "text/csv"
         )
@@ -75,17 +237,22 @@ def main() -> None:
 
     source_label = "Built-in sample data"
     synthetic = True
-    if source == "Upload CSV" and uploaded is not None:
-        try:
-            raw = pd.read_csv(uploaded)
-            cleaned, report = clean_transactions(raw)
-            source_label = uploaded.name
-            synthetic = False
-        except Exception as exc:  # noqa: BLE001
-            st.error("The uploaded CSV could not be read or cleaned.")
-            st.caption(str(exc))
+    if mode == "Upload My Transactions":
+        if st.button("Reset uploaded data"):
+            for key in ["uploaded_cleaned", "uploaded_report", "uploaded_filename"]:
+                st.session_state.pop(key, None)
+            st.rerun()
+        if "uploaded_cleaned" not in st.session_state:
+            _show_upload_wizard()
             return
+        cleaned = st.session_state["uploaded_cleaned"]
+        report = st.session_state["uploaded_report"]
+        source_label = (
+            f"Your Uploaded Data: {st.session_state.get('uploaded_filename', 'uploaded.csv')}"
+        )
+        synthetic = False
     else:
+        st.info("Demo Mode: exploring deterministic synthetic sample data.")
         cleaned, report = cached_sample()
 
     if cleaned.empty:

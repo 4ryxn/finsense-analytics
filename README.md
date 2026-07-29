@@ -9,7 +9,7 @@ FinSense Analytics is a compact portfolio-grade Streamlit Data Science project f
 ## Key Features
 
 - Deterministic synthetic four-year transaction dataset
-- CSV upload processed in memory only
+- Main-area "Analyze Your Data" CSV import wizard processed in memory only
 - Schema validation, cleaning, duplicate removal, rejected-row reasons, and cleaning report download
 - Executive dashboard with income, expense, net cash flow, savings rate, budget utilization, health score, and anomaly count
 - EDA tabs for trends, categories, merchants, calendar behavior, distributions, boxplots, percentiles, growth, and concentration
@@ -18,6 +18,36 @@ FinSense Analytics is a compact portfolio-grade Streamlit Data Science project f
 - Transparent Financial Health Score from 0 to 100
 - Scenario planner for expense reduction, one-time upcoming expenses, budget gap, and savings-goal progress
 - Downloads for cleaned CSV, cleaning report, anomalies, monthly summary, model comparison, and a self-contained HTML report
+
+## Analyze Your Own Data
+
+Use **Upload My Transactions** at the top of the app to open the import wizard. The workflow is:
+
+1. Upload file
+2. Detect columns
+3. Review mapping
+4. Preview cleaned data
+5. Analyze
+
+Supported CSV layouts:
+
+- Existing FinSense template
+- Separate debit and credit columns
+- One signed amount column
+- Amount plus transaction-type column
+
+Recognized column names include common variations of date, value date, description, narration, remarks, debit, withdrawal, credit, deposit, amount, type, category, merchant, payment method, currency, and transaction ID. Balance columns are ignored and never used as transaction amounts.
+
+When merchant or category is missing, FinSense derives merchant names from transaction descriptions and applies transparent keyword rules. Examples include Swiggy/Zomato as Dining, rent as Housing, Airtel/Jio/gas/power as Utilities, Netflix/Spotify/Prime as Subscriptions, and unknown descriptions as Other. This is deterministic rule-based categorization, not AI categorization.
+
+Privacy controls:
+
+- Uploaded files are processed in memory only
+- Files over 10 MB are rejected
+- Unknown columns are ignored
+- Transaction contents are not logged by the app
+- Full account numbers should be removed before upload
+- Malformed, empty, and unsupported CSVs receive clear validation messages
 
 ## Screenshots
 
@@ -45,6 +75,7 @@ Add screenshots after running locally:
 - `src/finsense/analytics.py`: KPIs, summaries, filters, EDA aggregations
 - `src/finsense/features.py`: monthly modeling features, lags, rolling averages, cyclical month features
 - `src/finsense/forecasting.py`: baseline, Linear Regression, Random Forest, Gradient Boosting, metrics, ranges, importance
+- `src/finsense/imports.py`: uploaded CSV parsing, column detection, mapping validation, deterministic enrichment
 - `src/finsense/anomalies.py`: deterministic Isolation Forest pipeline and severity labels
 - `src/finsense/scoring.py`: Financial Health Score components, weights, bands, suggestions
 - `src/finsense/scenarios.py`: scenario planner calculations
