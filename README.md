@@ -1,4 +1,8 @@
 # FinSense Analytics
+ 
+[![Live App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://finsense-analytics-4ryxn.streamlit.app)
+
+**Live Demo:** https://finsense-analytics-4ryxn.streamlit.app
 
 FinSense Analytics is a deliberately compact Streamlit portfolio project for INR personal-finance analytics, lightweight machine learning, and data-quality reporting.
 
