@@ -48,6 +48,24 @@ If automatic detection is incomplete, the wizard provides mapping controls for r
 
 When merchant or category is missing, FinSense derives a merchant from the transaction description and applies deterministic keyword rules. Examples: Swiggy or Zomato become Dining, rent becomes Housing, Airtel/Jio/gas/power become Utilities, Netflix/Spotify/Prime become Subscriptions, and low-confidence descriptions become Other.
 
+## Screenshots
+
+### Executive Overview
+
+![FinSense Analytics executive overview](docs/screenshots/overview.png)
+
+### Real Transaction Import
+
+![FinSense Analytics CSV import wizard](docs/screenshots/import-wizard.png)
+
+### Expense Forecast and Budget Risk
+
+![FinSense Analytics forecasting dashboard](docs/screenshots/forecast.png)
+
+### Financial Health and Scenario Planner
+
+![FinSense Analytics financial health dashboard](docs/screenshots/financial-health.png)
+
 ## Privacy
 
 - Uploaded files are processed in memory only.
